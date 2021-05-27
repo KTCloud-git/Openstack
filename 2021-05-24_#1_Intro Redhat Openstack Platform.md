@@ -14,7 +14,7 @@
 
 # History
 
-* 최초에 NASA에서 랙플레이스(No rockplace)가 만들었음. 
+* 최초에 NASA에서 Rockspace(No rockplace)가 만들었음. 
 
 * Open Satck Platform으로 배포되고 Python, Oslo로 만들어졌고, 중국인 및 아시아인들이 대거 참여하여 Kilo로 만듦.
 
@@ -160,4 +160,4 @@ Role : 프로젝트의 모임
 
 # Instructor 
 
-* 최**
+* 최

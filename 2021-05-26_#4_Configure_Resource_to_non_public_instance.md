@@ -81,6 +81,3 @@ Case 1. Windows 및 Linux 서버의 경우 : Instance - VNC(Virtual Network Comp
 
 Case 2. Linux 서버의 경우 : Instance - Serial - User 
 ```
-
-
-
