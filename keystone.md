@@ -1,6 +1,11 @@
+# Preface 
+
+* Key stone : 건물의 한 부분과 다른 한부분을 잇는 돌조각을 의미함.
+
+![Key stone is the final piece placed during construction and locks all the stones into position](/img/keystone.png)
 # Definition
 
-* Keystone : 
+* Keystone
   
   각 서비스로 접속 가능한 경로 정의하고 Token을 생성하는 역할을 수행함.
   
@@ -8,9 +13,7 @@
   
   즉, 하나의 서비스가 요청을 하면 중간 전달자로서 역할을 심어서 다른 서비스로 전달하는 역할을 함. 그러므로 인증 자체는 다른 서비스가 수행함. 
 
-
 # Architecture
-
 ## 인증의 구조 
 
 1. 특정 member가 어느 "USER- PROJECT -ROLE"과 매핑되는지 Policy.json 파일에 정의함. 
@@ -19,7 +22,7 @@
 
 3. 해당 member에 해당하는 role을 확인하여, 접속 가능한 project를 확인
 
-```
+```bash
           USER  -   PROJECT
               \    /
     API(Rest)  ROLE
