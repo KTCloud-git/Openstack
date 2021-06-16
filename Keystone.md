@@ -183,8 +183,10 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 <br>
 
 1. 사용자가 Keystone으로부터 범위 비지정(Unscoped) Token 획득
+   - 사용자는 Nova 서비스가 제공하는 VM을 이용하기 위해 Keystone에 접근
+   - Keystone은
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjM5MjcxMSwxMjUyMDg1NDU0LDM2OT
+eyJoaXN0b3J5IjpbMTAyMzQzNTY5MiwxMjUyMDg1NDU0LDM2OT
 I3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1
 MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMD
 gyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkx
