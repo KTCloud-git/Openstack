@@ -15,6 +15,7 @@
 </br>
 
 Keystone은 Openstack의 인증을 담당하고 있습니다.  
+Openstack의 백엔드에서 RBAD(Role Based Access Control
 어떤 서비스를 설치하더라도 가장 먼저 설치가 되는 가장 중요한 서비스이며, Keystone이 없으면 그 어떤 서비스도 이용할 수 없습니다.
 
 </br>
@@ -108,9 +109,9 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY4OTgzMzQsNDE2NTg5MTE3LC0xMz
-QyNDU2OTEyLDIxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYz
-NDMsMTQzODQ4MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LD
-Y0OTcwMzA2LDI4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0
-NCwxNTAxNzkwODMwXX0=
+eyJoaXN0b3J5IjpbNTc4MzQ4MTY4LDQxNjU4OTExNywtMTM0Mj
+Q1NjkxMiwyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQz
+LDE0Mzg0ODEzNzIsMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2ND
+k3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQs
+MTUwMTc5MDgzMF19
 -->
