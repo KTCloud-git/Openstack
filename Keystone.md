@@ -83,6 +83,8 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
    + 사람 또는 Openstack 서비스를 이용하는 서비스(nova, neutron, cinder 등)를 의미
    + User는 특정 프로젝트에 할당할 수 있으며, 중복을 허용하지 않음
 
+2. Authentication
+   + 사용자의 신분을 확인하는 절차로, 특정 값을 통해 Keystone이 이를 검증
 </br>
 </br>
 <h3>Openstack에서 Keystone의 위치</h3>
@@ -101,9 +103,9 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTg4NDcyMCw0MTY1ODkxMTcsLTEzND
-I0NTY5MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0
-MywxNDM4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNj
-Q5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0
-LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbODQ1Njg0MTc1LDQxNjU4OTExNywtMTM0Mj
+Q1NjkxMiwyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQz
+LDE0Mzg0ODEzNzIsMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2ND
+k3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQs
+MTUwMTc5MDgzMF19
 -->
