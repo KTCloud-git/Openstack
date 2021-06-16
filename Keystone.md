@@ -31,9 +31,14 @@ Openstack이라는 집은 물리서버로 구성되어 있고, **집 안에는 C
 
 #
 
+이러한 자원들이 우리가 평소에 사용하는 가전제품이라고 한다면  
+Openstack이라는 집에 들어가야만 사용할 수 있습니다.
 
+#
+
+내돈내산
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjM2NzkxOSw2NDk3MDMwNiwyODQ1Mz
-M3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbNjQwOTAyNzUzLDY0OTcwMzA2LDI4NDUzMz
+c1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
 
 -->
