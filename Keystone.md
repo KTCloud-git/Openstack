@@ -188,7 +188,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - User는 Nova 서비스가 제공하는 VM을 이용하기 위해 Keystone에 접근
    - Keystone은 User에게 **신분 증명을 요구**
    - User는 ID, PW를 제출하여 신분을 증명
-   - Keystone은 인증에 성공한 User에게 **Unscoped Token을 발급**
+   - Keystone은 인증에 성공한 User에게 **Unscoped Token을 발급**  
    (현재 Token에는 User가 사용가능한 서비스들에 대한 범위가 포함되어 있지 않음. 따라서 다른 서비스들에 접근이 불가능)
 </br>
 
@@ -202,11 +202,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - Keystone은 User에게 할당된 Role에 따라 프로젝트의 종류와 수행 가능한 End-Point 목록을 작성  
    (현재 단계에서는 User에게 End-Point 목록이 전달되지 않은 상태)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODI4NTY2OSwtMjQ3NDM5MTYzLDE1ND
-I5ODI3ODcsMjI4MDE1Mzk4LDgyMjMyMzQxNiwxMjUyMDg1NDU0
-LDM2OTI3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMD
-MxNjA1MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4
-MywxMDgyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMT
-gyMjkxNzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMTg1NzQw
-ODQ4NF19
+eyJoaXN0b3J5IjpbMzc0MTA5OTg5LC0yNDc0MzkxNjMsMTU0Mj
+k4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0NTQs
+MzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1OTcsLTIwMz
+E2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOTMyNjI2Mjgz
+LDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4NiwxOD
+IyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xODU3NDA4
+NDg0XX0=
 -->
