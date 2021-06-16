@@ -163,9 +163,11 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 위의 내용을 바탕으로 정리하자면  
 - Tenant에는 User가 포함
 - User는 Role을 가지고 있음
-- Token을 발행할 때에 Te
+- Token을 발행할 때 Tenant와 User 정보가 필요
+- 서비스가 있고, 각각의 서비스는 End-Point URL을 가짐
+- User는 End-Point URL을 통해 서비스에 접근
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTcxMTQxOCw4MzQ0MzAxNzIsOTMyNj
+eyJoaXN0b3J5IjpbMTE0ODI1MTkxMCw4MzQ0MzAxNzIsOTMyNj
 I2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4
 NiwxODIyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xOD
 U3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMiwyMTI2NzE1
