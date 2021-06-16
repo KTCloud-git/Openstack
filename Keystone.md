@@ -215,7 +215,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 </br>
 </br>
 
-**<font color='red'>※ 4~7번의 과정은 서비스 수행 요청마다 진행</font>**
+<font color='red'>※ 4~7번의 과정은 서비스 수행 요청마다 진행</font>
 
 </br>
 
@@ -223,7 +223,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 범위가 지정된 Token을 받은 User는 Token 내부의 End-Point를 확인하고 서비스에게 수행을 요청
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3ODY2ODQyLC0xMjA5MTY5NDAsMzc0MT
+eyJoaXN0b3J5IjpbNDMyOTE5MjU4LC0xMjA5MTY5NDAsMzc0MT
 A5OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4NywyMjgwMTUzOTgs
 ODIyMzIzNDE2LDEyNTIwODU0NTQsMzY5MjczMjg1LC0xMDE5Nz
 Y4NTAxLDEwNzkwODA1OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5
