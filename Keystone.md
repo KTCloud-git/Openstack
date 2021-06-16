@@ -31,6 +31,10 @@ Openstack이라는 집은 물리서버로 구성되어 있고, **집 안에는 C
 
 #
 
+![house](./img/house.png)
+
+#
+
 이러한 자원들이 우리가 평소에 사용하는 가전제품이라고 한다면  
 Openstack이라는 집에 들어가야만 사용할 수 있습니다.
 
@@ -52,7 +56,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NT
-MzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBd
-fQ==
+eyJoaXN0b3J5IjpbMTU2ODAzMDI4MCwtMTY1NjU0MTY3OSw2ND
+k3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQs
+MTUwMTc5MDgzMF19
 -->
