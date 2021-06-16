@@ -1,4 +1,4 @@
-# Openstack Tenent 및 Identity 관리
+# Openstack Tenant 및 Identity 관리
 
 </br>
 <h2>목차</h2>
@@ -145,10 +145,11 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 
 그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA4ODA4MSwtMTgzMjgwODk4NiwxOD
-IyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xODU3NDA4
-NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMiwyMTI2NzE1MTIyLD
-E2MjM2ODU3NjIsNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMTY1NDcz
-NDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUsMz
-QyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbMTA4Mjk0NjAyNywtMTI4MDg4MDgxLC0xOD
+MyODA4OTg2LDE4MjI5MTc3OSwxMTcwMDU1MzM1LDE5ODAwNzMw
+NjUsLTE4NTc0MDg0ODQsNDE2NTg5MTE3LC0xMzQyNDU2OTEyLD
+IxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYzNDMsMTQzODQ4
+MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LDY0OTcwMzA2LD
+I4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkw
+ODMwXX0=
 -->
