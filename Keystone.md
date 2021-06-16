@@ -93,7 +93,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
    + RBAD의 신분을 증명하기 위해 사용되는 데이터
    + Token Type
       - uuid : 32byte길이이며 백엔드에서 유지되어야 함, 현재 기본 토큰 공급자
-      - fernet : 
+      - fernet : aes
  
 </br>
 </br>
@@ -113,7 +113,7 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDM2MDM3OCwtMTg1NzQwODQ4NCw0MT
+eyJoaXN0b3J5IjpbMTk4MDA3MzA2NSwtMTg1NzQwODQ4NCw0MT
 Y1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcxNTEyMiwxNjIzNjg1
 NzYyLDY5OTEwNjM0MywxNDM4NDgxMzcyLDE2NTQ3MzQ2NjksLT
 E2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIx
