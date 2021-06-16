@@ -36,13 +36,14 @@ Openstack이라는 집에 들어가야만 사용할 수 있습니다.
 
 #
 
-즉, 내돈내산 가전제품들을 집 주인과 손님만 사용할 수 있습니다.
+즉, 내돈내산 가전제품들을 집 주인과 손님만 사용할 수 있습니다.  
+이렇듯 Openstack이 제공하는 서비스들도 동일하게 아무나 사용할 수 없습니다.
 
 #
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzUyMDc2MCw2NDk3MDMwNiwyODQ1Mz
-M3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbNzI2NzI2MDk2LDY0OTcwMzA2LDI4NDUzMz
+c1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
 
 -->
