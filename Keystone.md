@@ -61,13 +61,19 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 #
 
 이번에는 논리적인 구조를 통해 Keystone에 대해 한번 더 알아보겠습니다.  
-* Keystone은 서비스 및 관리자 API, Token Backend, Catalog Backend, Policy Backend, Identity Backend로 구성이 됩니다.
+* Keystone은 **서비스 및 관리자 API, Token Backend, Catalog Backend, Policy Backend, Identity Backend**로 구성이 됩니다.
 
 #
 
 <img src="./img/logical architecture.png" width="600" height="300"> 
+
+#
+
++ Token Backend : 사용자 별 Token 관리
++ Catalog Backend : Openstack 모든 서비스의 End-Point URL 관리
++ Pol
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDA4Nzg5MiwxNDM4NDgxMzcyLDE2NT
+eyJoaXN0b3J5IjpbLTk0ODUwNjAwMCwxNDM4NDgxMzcyLDE2NT
 Q3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1
 LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
 -->
