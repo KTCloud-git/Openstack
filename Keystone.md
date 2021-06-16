@@ -210,12 +210,12 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 위의 정보(프로젝트와 Role)가 포함된 Token을 User에게 보냄
 <br>
 
-<img src="./img/step_1.png" width="300" height="300">
+<img src="./img/step_2.png" width="300" height="300">
 
 </br>
 </br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2ODExNzcyLC0xMjA5MTY5NDAsMzc0MT
+eyJoaXN0b3J5IjpbOTYwNDIzMTk1LC0xMjA5MTY5NDAsMzc0MT
 A5OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4NywyMjgwMTUzOTgs
 ODIyMzIzNDE2LDEyNTIwODU0NTQsMzY5MjczMjg1LC0xMDE5Nz
 Y4NTAxLDEwNzkwODA1OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5
