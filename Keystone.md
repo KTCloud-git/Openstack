@@ -56,7 +56,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 #
 #
 
-<h3> Logical Architecture로 보는 Keystone</h3>
+<h3>Logical Architecture로 보는 Keystone</h3>
 
 #
 
@@ -73,8 +73,17 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 + Catalog Backend : Openstack 모든 서비스의 End-Point URL 관리
 + Policy Backend : Tenent, 사용자 계정 및 Role 등을 관리
 + Identity Backend : 전체적인 사용자 인증 관리
+
+#
+#
+
+<h3>Openstack에서 Keystone의 위치</h3>
+
+#
+
+이번에는
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NDE4NDc5LDE0Mzg0ODEzNzIsMTY1ND
-czNDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUs
-MzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbLTIwNTA3OTg0MjUsMTQzODQ4MTM3MiwxNj
+U0NzM0NjY5LC0xNjU2NTQxNjc5LDY0OTcwMzA2LDI4NDUzMzc1
+NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
 -->
