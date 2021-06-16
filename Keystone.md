@@ -81,9 +81,10 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 #
 
-이번에는
+이번에는 Openstack에서 Keystone의 위치를 알아볼까 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMTY1ND
-czNDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUs
-MzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbMTYyMzY4NTc2Miw2OTkxMDYzNDMsMTQzOD
+Q4MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LDY0OTcwMzA2
+LDI4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNz
+kwODMwXX0=
 -->
