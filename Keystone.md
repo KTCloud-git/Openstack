@@ -131,7 +131,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 </br>
 </br>
 
-> <h3 color="black">Openstack에서 Keystone의 위치</h3>
+> <h3 background="black">Openstack에서 Keystone의 위치</h3>
 > 
 </br>
 
@@ -189,7 +189,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - Keystone은 User에게 신분증명을 요구
    - 사용자
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzA5MjE2MiwxMjUyMDg1NDU0LDM2OT
+eyJoaXN0b3J5IjpbMTg1Njc0MjA3NSwxMjUyMDg1NDU0LDM2OT
 I3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1
 MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMD
 gyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkx
