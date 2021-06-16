@@ -201,12 +201,19 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - 신분 증명을 완료하여 Unscoped Token을 받은 User는 해당 Token을 통해 자신이 접속 가능한 프로젝트를 요청
    - Keystone은 User에게 할당된 Role에 따라 프로젝트의 종류와 수행 가능한 End-Point 목록을 작성  
    (현재 단계에서는 User에게 End-Point 목록이 전달되지 않은 상태)
+
+</br>
+</br>
+
+**3. User가 Keystone으로 부터 범위 지정 토큰(Scoped Token) 획득
+- Keystone은 User가 접속 가능한 프로젝트 목록과 User가 사용을 원하는 프로젝트를 결정
+- 위의 정보
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDkxNjk0MCwzNzQxMDk5ODksLTI0Nz
-QzOTE2MywxNTQyOTgyNzg3LDIyODAxNTM5OCw4MjIzMjM0MTYs
-MTI1MjA4NTQ1NCwzNjkyNzMyODUsLTEwMTk3Njg1MDEsMTA3OT
-A4MDU5NywtMjAzMTYwNTIyMCwtMTA4NjYzMjkwLDgzNDQzMDE3
-Miw5MzI2MjYyODMsMTA4Mjk0NjAyNywtMTI4MDg4MDgxLC0xOD
-MyODA4OTg2LDE4MjI5MTc3OSwxMTcwMDU1MzM1LDE5ODAwNzMw
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTE3NDU5Nzk4NDcsLTEyMDkxNjk0MCwzNz
+QxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgyNzg3LDIyODAxNTM5
+OCw4MjIzMjM0MTYsMTI1MjA4NTQ1NCwzNjkyNzMyODUsLTEwMT
+k3Njg1MDEsMTA3OTA4MDU5NywtMjAzMTYwNTIyMCwtMTA4NjYz
+MjkwLDgzNDQzMDE3Miw5MzI2MjYyODMsMTA4Mjk0NjAyNywtMT
+I4MDg4MDgxLC0xODMyODA4OTg2LDE4MjI5MTc3OSwxMTcwMDU1
+MzM1XX0=
 -->
