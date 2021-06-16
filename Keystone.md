@@ -146,16 +146,17 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 </br>
 </br>
+</br>
 
 그렇다면, Keystone이 어떻게 사용자와 서비스 인증 부분을 관리하는지 알아보겠습니다.
-
-<img src="./img/Keystone in.png" width="600" height="400">
+</br>
+<img src="./img/Keystone in.png" width="600" height="200">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NDMwMTcyLDkzMjYyNjI4MywxMDgyOT
-Q2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkxNzc5
-LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMTg1NzQwODQ4NCw0MT
-Y1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcxNTEyMiwxNjIzNjg1
-NzYyLDY5OTEwNjM0MywxNDM4NDgxMzcyLDE2NTQ3MzQ2NjksLT
-E2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIx
-MF19
+eyJoaXN0b3J5IjpbLTEyOTU5NTE0MTAsODM0NDMwMTcyLDkzMj
+YyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5
+ODYsMTgyMjkxNzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMT
+g1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcx
+NTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0MywxNDM4NDgxMzcyLD
+E2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMz
+NzU1XX0=
 -->
