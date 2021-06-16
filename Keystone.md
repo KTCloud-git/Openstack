@@ -65,9 +65,9 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 #
 
-<img src="./img/logical architecture.png" width="500" height="300"> 
+<img src="./img/logical architecture.png" width="600" height="300"> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM5MTI1MywxNDM4NDgxMzcyLDE2NT
+eyJoaXN0b3J5IjpbLTYxNDA4Nzg5MiwxNDM4NDgxMzcyLDE2NT
 Q3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1
 LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
 -->
