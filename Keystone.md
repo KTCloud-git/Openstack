@@ -192,13 +192,13 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    (현재 Token에는 User가 사용가능한 서비스들에 대한 범위가 포함되어 있지 않음. 따라서 다른 서비스들에 접근이 불가능)
 </br>
 
-<img src="./img/step1.png" width="400" height="400">
+<img src="./img/step1.png" width="300" height="300">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYyOTcyNDUsMjI4MDE1Mzk4LDgyMj
-MyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUw
-MSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC0xMDg2NjMyOTAsOD
-M0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgw
-ODEsLTE4MzI4MDg5ODYsMTgyMjkxNzc5LDExNzAwNTUzMzUsMT
-k4MDA3MzA2NSwtMTg1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0
-NTY5MTJdfQ==
+eyJoaXN0b3J5IjpbMTU0Mjk4Mjc4NywyMjgwMTUzOTgsODIyMz
+IzNDE2LDEyNTIwODU0NTQsMzY5MjczMjg1LC0xMDE5NzY4NTAx
+LDEwNzkwODA1OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5MCw4Mz
+Q0MzAxNzIsOTMyNjI2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4
+MSwtMTgzMjgwODk4NiwxODIyOTE3NzksMTE3MDA1NTMzNSwxOT
+gwMDczMDY1LC0xODU3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1
+NjkxMl19
 -->
