@@ -130,7 +130,9 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 + 사용자들은 한 도메인의 관리자로 권한을 부여받을 수 있고, 그 관리자는 도메인 내에서 Project, User, Group을 생성할 수 있으며 역할을 부여할 수도 있음
 </br>
 </br>
+
 > <h3>Openstack에서 Keystone의 위치</h3>
+> 
 </br>
 
 이번에는 Openstack에서 Keystone의 위치를 알아볼까 합니다.
@@ -187,11 +189,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - Keystone은 User에게 신분증명을 요구
    - 사용자
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU4NzI5MSwxMjUyMDg1NDU0LDM2OT
-I3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1
-MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMD
-gyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkx
-Nzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMTg1NzQwODQ4NC
-w0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcxNTEyMiwxNjIz
-Njg1NzYyXX0=
+eyJoaXN0b3J5IjpbLTE0MTA3MTQ2MjEsMTI1MjA4NTQ1NCwzNj
+kyNzMyODUsLTEwMTk3Njg1MDEsMTA3OTA4MDU5NywtMjAzMTYw
+NTIyMCwtMTA4NjYzMjkwLDgzNDQzMDE3Miw5MzI2MjYyODMsMT
+A4Mjk0NjAyNywtMTI4MDg4MDgxLC0xODMyODA4OTg2LDE4MjI5
+MTc3OSwxMTcwMDU1MzM1LDE5ODAwNzMwNjUsLTE4NTc0MDg0OD
+QsNDE2NTg5MTE3LC0xMzQyNDU2OTEyLDIxMjY3MTUxMjIsMTYy
+MzY4NTc2Ml19
 -->
