@@ -79,7 +79,8 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 <h3>Keystone의 구성요소</h3>
 
-1. 
+1. User
+2. 
 
 </br>
 </br>
@@ -99,9 +100,9 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTY1NTY1MCw0MTY1ODkxMTcsLTEzND
-I0NTY5MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0
-MywxNDM4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNj
-Q5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0
-LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbMjI0ODE1NDk5LDQxNjU4OTExNywtMTM0Mj
+Q1NjkxMiwyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQz
+LDE0Mzg0ODEzNzIsMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2ND
+k3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQs
+MTUwMTc5MDgzMF19
 -->
