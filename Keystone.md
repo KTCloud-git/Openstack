@@ -80,15 +80,19 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 </br>
 
 <h3>Keystone의 구성요소</h3>
+
 </br>
+
 **1. User**
    + 사람 또는 Openstack 서비스를 이용하는 서비스(nova, neutron, cinder 등)를 의미
    + User는 특정 프로젝트에 할당할 수 있으며, 중복을 허용하지 않음
 </br>
+
 **2. Authentication**
    + 사용자의 신분을 확인하는 절차로, 특정 값을 통해 Keystone이 이를 검증
    + 보통 인증을 위한 자료로는 ID, PW가 사용되며 Keystone은 인증확인 시 인증토큰을 발행
 </br>
+
 **3. Token**
    + RBAD의 신분을 증명하기 위해 사용되는 데이터
    + Token Type : uuid, fernet, pki, pkiz
@@ -133,10 +137,10 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDc3MDcyNiwxMTcwMDU1MzM1LDE5OD
-AwNzMwNjUsLTE4NTc0MDg0ODQsNDE2NTg5MTE3LC0xMzQyNDU2
-OTEyLDIxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYzNDMsMT
-QzODQ4MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LDY0OTcw
-MzA2LDI4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNT
-AxNzkwODMwXX0=
+eyJoaXN0b3J5IjpbLTEwMTA5Mjc2NzAsMTE3MDA1NTMzNSwxOT
+gwMDczMDY1LC0xODU3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1
+NjkxMiwyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQzLD
+E0Mzg0ODEzNzIsMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2NDk3
+MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMT
+UwMTc5MDgzMF19
 -->
