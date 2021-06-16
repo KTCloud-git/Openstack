@@ -85,9 +85,9 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 </br>
 
-<img src="./img/Keystone location.png" width="700" height="400"> 
+<img src="./img/Keystone location.png" width="800" height="400"> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMzI5MTc2LDIxMjY3MTUxMjIsMTYyMz
+eyJoaXN0b3J5IjpbNDQyNjMyNTM3LDIxMjY3MTUxMjIsMTYyMz
 Y4NTc2Miw2OTkxMDYzNDMsMTQzODQ4MTM3MiwxNjU0NzM0NjY5
 LC0xNjU2NTQxNjc5LDY0OTcwMzA2LDI4NDUzMzc1NSwzNDIzOD
 MyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
