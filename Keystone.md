@@ -75,7 +75,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 + **Token Backend** : 사용자 별 Token 관리
 + **Catalog Backend** : Openstack 모든 서비스의 End-Point URL 관리
-+ **Policy Backend** : Tenent, 사용자 계정 및 Role 등을 관리
++ **Policy Backend** : Tenant, 사용자 계정 및 Role 등을 관리
 + **Identity Backend** : 전체적인 사용자 인증 관리
 
 </br>
@@ -105,7 +105,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
    + Token Type에는 어떤 자원에 접근이 가능한지 범위가 지정되어 있음
  </br>
  
- **4. Project(Tenent)**
+ **4. Project(Tenant)**
  + Keystone V2까지 Tenant라는 이름으로 사용(V3 이후 Project)
  + 어떤 자원이나 애플리케이션에 대한 권리를 가진 보안그룹
  + 프로젝트는 특정 도메인에 의해 소유
@@ -145,11 +145,11 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 
 그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mjk0NjAyNywtMTI4MDg4MDgxLC0xOD
-MyODA4OTg2LDE4MjI5MTc3OSwxMTcwMDU1MzM1LDE5ODAwNzMw
-NjUsLTE4NTc0MDg0ODQsNDE2NTg5MTE3LC0xMzQyNDU2OTEyLD
-IxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYzNDMsMTQzODQ4
-MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LDY0OTcwMzA2LD
-I4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkw
-ODMwXX0=
+eyJoaXN0b3J5IjpbOTMyNjI2MjgzLDEwODI5NDYwMjcsLTEyOD
+A4ODA4MSwtMTgzMjgwODk4NiwxODIyOTE3NzksMTE3MDA1NTMz
+NSwxOTgwMDczMDY1LC0xODU3NDA4NDg0LDQxNjU4OTExNywtMT
+M0MjQ1NjkxMiwyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2
+MzQzLDE0Mzg0ODEzNzIsMTY1NDczNDY2OSwtMTY1NjU0MTY3OS
+w2NDk3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0
+NDRdfQ==
 -->
