@@ -173,15 +173,18 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에  
 실제로 Keystone어떤 절차를 통해 동작하는지 알아보겠습니다.
 </br>
+</br>
 
-<h2>Keystone 동작 절차</h2>  
+<h2>Keystone 동작 절차</h2>
+<br>
+
 1. dw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAwMjMyMzAsLTEwMTk3Njg1MDEsMT
-A3OTA4MDU5NywtMjAzMTYwNTIyMCwtMTA4NjYzMjkwLDgzNDQz
-MDE3Miw5MzI2MjYyODMsMTA4Mjk0NjAyNywtMTI4MDg4MDgxLC
-0xODMyODA4OTg2LDE4MjI5MTc3OSwxMTcwMDU1MzM1LDE5ODAw
-NzMwNjUsLTE4NTc0MDg0ODQsNDE2NTg5MTE3LC0xMzQyNDU2OT
-EyLDIxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYzNDMsMTQz
-ODQ4MTM3Ml19
+eyJoaXN0b3J5IjpbMzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNz
+kwODA1OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAx
+NzIsOTMyNjI2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMT
+gzMjgwODk4NiwxODIyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDcz
+MDY1LC0xODU3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMi
+wyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQzLDE0Mzg0
+ODEzNzJdfQ==
 -->
