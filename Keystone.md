@@ -71,9 +71,10 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 + Token Backend : 사용자 별 Token 관리
 + Catalog Backend : Openstack 모든 서비스의 End-Point URL 관리
-+ Pol
++ Policy Backend : Tenent, 사용자 계정 및 Role 등을 관리
++ Identity Backend : 전체적인 사용자 인증 관리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODUwNjAwMCwxNDM4NDgxMzcyLDE2NT
-Q3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1
-LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbNTA4NDE4NDc5LDE0Mzg0ODEzNzIsMTY1ND
+czNDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUs
+MzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 -->
