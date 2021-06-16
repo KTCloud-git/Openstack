@@ -95,8 +95,10 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
    (참고 : https://docs.openstack.org/newton/admin-guide/identity-tokens.html)
    + Token Type에는 어떤 자원에 접근이 가능한지 범위가 지정되어 있음
  
- **4. Project**
- + dwawd
+ **4. Project(Tenent)**
+ + Keystone V2까지 Tenant라는 이름으로 사용(V3 이후 Project)
+ + 어떤 자원이나 애플리케이션에 대한 권리를 가진 보안그룹
+ + 프로젝트는 특정 도메인에 의해 소유
 </br>
 </br>
 <h3>Openstack에서 Keystone의 위치</h3>
@@ -115,10 +117,9 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk2NDAxNzUsMTk4MDA3MzA2NSwtMT
-g1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcx
-NTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0MywxNDM4NDgxMzcyLD
-E2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMz
-NzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ
-==
+eyJoaXN0b3J5IjpbMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xOD
+U3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMiwyMTI2NzE1
+MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMT
+Y1NDczNDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3
+NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 -->
