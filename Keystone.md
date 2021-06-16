@@ -14,9 +14,13 @@
 
 #
 
-Keystone
+Keystone은 Openstack의 인증을 담당하고 있습니다.
+
+#
+
+ㅇㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwNzY4Mzg5LDY0OTcwMzA2LDI4NDUzMz
-c1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
+eyJoaXN0b3J5IjpbMTIzMjgxNDY4Myw2NDk3MDMwNiwyODQ1Mz
+M3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 
 -->
