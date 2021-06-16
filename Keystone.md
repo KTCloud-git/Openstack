@@ -81,7 +81,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 </br>
 </br>
 
-<h3>Keystone의 구성요소</h3>
+> <h3>Keystone의 구성요소</h3>
 
 
 (참고 : https://docs.openstack.org/keystone/latest/getting-started/architecture.html)
@@ -130,7 +130,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 + 사용자들은 한 도메인의 관리자로 권한을 부여받을 수 있고, 그 관리자는 도메인 내에서 Project, User, Group을 생성할 수 있으며 역할을 부여할 수도 있음
 </br>
 </br>
-<h3>Openstack에서 Keystone의 위치</h3>
+> <h3>Openstack에서 Keystone의 위치</h3>
 </br>
 
 이번에는 Openstack에서 Keystone의 위치를 알아볼까 합니다.
@@ -182,11 +182,12 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 <br>
 
-1. 사용자가 Keystone으로부터 범위 비지정(Unscoped) Token 획득
-   - 사용자는 Nova 서비스가 제공하는 VM을 이용하기 위해 Keystone에 접근
-   - Keystone은
+1. User가 Keystone으로부터 범위 비지정(Unscoped) Token 획득
+   - User는 Nova 서비스가 제공하는 VM을 이용하기 위해 Keystone에 접근
+   - Keystone은 User에게 신분증명을 요구
+   - 사용자
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzQzNTY5MiwxMjUyMDg1NDU0LDM2OT
+eyJoaXN0b3J5IjpbMTAyMzE2MjQzNywxMjUyMDg1NDU0LDM2OT
 I3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1
 MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMD
 gyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkx
