@@ -14,10 +14,7 @@
 
 #
 
-Keystone은 Openstack의 인증을 담당하고 있습니다.
-
-#
-
+Keystone은 Openstack의 인증을 담당하고 있습니다.  
 어떤 서비스를 설치하더라도 가장 먼저 설치가 되는 가장 중요한 서비스이며, Keystone이 없으면 그 어떤 서비스도 이용할 수 없습니다.
 
 #
@@ -49,7 +46,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNTM4Mzc1LDY0OTcwMzA2LDI4NDUzMz
-c1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
+eyJoaXN0b3J5IjpbLTk3Njc0NzM2Miw2NDk3MDMwNiwyODQ1Mz
+M3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 
 -->
