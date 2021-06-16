@@ -53,10 +53,15 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 **결과적으로 Keystone은 사용자 인증을 통하여 물리 서버내의 자원을 사용할 수 있도록 관리합니다.**
 
 #
+#
 
+<h3> Logical Architecture로 보는 Keystone</h3>
 
+#
+
+dd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2ND
-k3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQs
-MTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbOTc0OTc1NDUyLDE2NTQ3MzQ2NjksLTE2NT
+Y1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwx
+MjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
 -->
