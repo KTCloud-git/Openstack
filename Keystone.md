@@ -110,7 +110,11 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 **6. 역할(Role)**
 + 사용자가 어떤 동작을 수행하도록 허용하는 집합
 + 사용자가 가지는 **역할은 사용자에게 발행된 Token에서 찾을 수 있음**
-+ 사용자가 서비스를 호출하면, 서비스는 Token에 저장된 사용자의 역할을 해석하여 허용할지를 결정
++ **사용자가 서비스를 호출하면, 서비스는 Token에 저장된 사용자의 역할을 해석하여 허용할지를 결정**
+
+**7. 도메인**
++ 구성요소들을 효과적으로 관리하기 위해 활동 범위가 제한된 User, Group, Project의 집합
++ 사용자들은 한 도메인의 관리자로 권한을 부여받을 수 있고, 그 관리자는 도메인 내에서 Project, User, Group을 생성할 수 있으며 역할을 부여할
 </br>
 </br>
 <h3>Openstack에서 Keystone의 위치</h3>
@@ -129,10 +133,10 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMDQ2ODA0LDExNzAwNTUzMzUsMTk4MD
-A3MzA2NSwtMTg1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5
-MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0MywxND
-M4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAz
-MDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MD
-E3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbLTEwNzY0NjY1ODUsMTE3MDA1NTMzNSwxOT
+gwMDczMDY1LC0xODU3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1
+NjkxMiwyMTI2NzE1MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQzLD
+E0Mzg0ODEzNzIsMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2NDk3
+MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMT
+UwMTc5MDgzMF19
 -->
