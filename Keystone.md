@@ -199,10 +199,10 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 **2. Keystone이 User가 접속 가능한 프로젝트 조사**
    - 신분 증명을 완료하여 Unscoped Token을 받은 User는 해당 Token을 통해 자신이 접속 가능한 프로젝트를 요청
-   - Keystone은 User에게 할당된 Role에 따라 프로젝트의 종류와 수행 가능한 End-Point 목록을 작성
+   - Keystone은 User에게 할당된 Role에 따라 프로젝트의 종류와 수행 가능한 End-Point 목록을 작성  
    (현재 단계에서는 User에게 End-Point 목록이 전달되지 않은 상태)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjE2MzQyOSwtMjQ3NDM5MTYzLDE1ND
+eyJoaXN0b3J5IjpbMTQ0ODI4NTY2OSwtMjQ3NDM5MTYzLDE1ND
 I5ODI3ODcsMjI4MDE1Mzk4LDgyMjMyMzQxNiwxMjUyMDg1NDU0
 LDM2OTI3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMD
 MxNjA1MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4
