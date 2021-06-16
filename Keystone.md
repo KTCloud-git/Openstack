@@ -31,7 +31,7 @@ Openstack이라는 집은 물리서버로 구성되어 있고, **집 안에는 C
 
 #
 
-<img src="./img/house.png" width="500" height="500"> 
+<img src="./img/house.png" width="400" height="400"> 
 
 #
 
@@ -56,7 +56,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU1MTM2MTksLTE2NTY1NDE2NzksNj
-Q5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0
-LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbMTY1NDczNDY2OSwtMTY1NjU0MTY3OSw2ND
+k3MDMwNiwyODQ1MzM3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQs
+MTUwMTc5MDgzMF19
 -->
