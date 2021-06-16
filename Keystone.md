@@ -91,6 +91,8 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 **3. Token**
    + RBAD의 신분을 증명하기 위해 사용되는 데이터
+   + Token Type
+      - fernet
  
 </br>
 </br>
@@ -110,9 +112,9 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI2ODA4MSw0MTY1ODkxMTcsLTEzND
-I0NTY5MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0
-MywxNDM4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNj
-Q5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0
-LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTc0MDg0ODQsNDE2NTg5MTE3LC0xMz
+QyNDU2OTEyLDIxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYz
+NDMsMTQzODQ4MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LD
+Y0OTcwMzA2LDI4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0
+NCwxNTAxNzkwODMwXX0=
 -->
