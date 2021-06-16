@@ -56,7 +56,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 </br>
 </br>
 
-<h3>**Logical Architecture로 보는 Keystone**</h3>
+**<h3>Logical Architecture로 보는 Keystone</h3>**
 
 </br>
 
@@ -77,7 +77,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 </br>
 </br>
 
-<h3>**Openstack에서 Keystone의 위치**</h3>
+<h3>Openstack에서 Keystone의 위치</h3>
 
 </br>
 
@@ -87,8 +87,8 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 <img src="./img/Keystone location.png" width="800" height="400"> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNjMyNTM3LDIxMjY3MTUxMjIsMTYyMz
-Y4NTc2Miw2OTkxMDYzNDMsMTQzODQ4MTM3MiwxNjU0NzM0NjY5
-LC0xNjU2NTQxNjc5LDY0OTcwMzA2LDI4NDUzMzc1NSwzNDIzOD
-MyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
+eyJoaXN0b3J5IjpbMjEzNDMxNjQ0MSwyMTI2NzE1MTIyLDE2Mj
+M2ODU3NjIsNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMTY1NDczNDY2
+OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUsMzQyMz
+gzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 -->
