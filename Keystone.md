@@ -131,7 +131,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 </br>
 </br>
 
-> <h3 background="black">Openstack에서 Keystone의 위치</h3>
+> <h3>Openstack에서 Keystone의 위치</h3>
 > 
 </br>
 
@@ -187,13 +187,14 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 1. User가 Keystone으로부터 범위 비지정(Unscoped) Token 획득
    - User는 Nova 서비스가 제공하는 VM을 이용하기 위해 Keystone에 접근
    - Keystone은 User에게 신분증명을 요구
-   - 사용자
+   - User는 ID, PW를 제출하여 신분을 증명
+   - Keystone은 인증에 성공한 User에게 Unscope
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Njc0MjA3NSwxMjUyMDg1NDU0LDM2OT
-I3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1
-MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMD
-gyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkx
-Nzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMTg1NzQwODQ4NC
-w0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcxNTEyMiwxNjIz
-Njg1NzYyXX0=
+eyJoaXN0b3J5IjpbLTEwMzUzNDI5NDksMTI1MjA4NTQ1NCwzNj
+kyNzMyODUsLTEwMTk3Njg1MDEsMTA3OTA4MDU5NywtMjAzMTYw
+NTIyMCwtMTA4NjYzMjkwLDgzNDQzMDE3Miw5MzI2MjYyODMsMT
+A4Mjk0NjAyNywtMTI4MDg4MDgxLC0xODMyODA4OTg2LDE4MjI5
+MTc3OSwxMTcwMDU1MzM1LDE5ODAwNzMwNjUsLTE4NTc0MDg0OD
+QsNDE2NTg5MTE3LC0xMzQyNDU2OTEyLDIxMjY3MTUxMjIsMTYy
+MzY4NTc2Ml19
 -->
