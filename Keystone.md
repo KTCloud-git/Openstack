@@ -152,12 +152,18 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 </br>
 
 <img src="./img/Keystone in.png" width="600" height="230">
+</br>
+
+사용자일 경우에 사용자 그룹인 Tenant, 사용자 계정 정보인 User(ID, PW), 사용자 권한인 Role을 가집니다.
+</br>
+
+반대로, 서비스일 경우에는 서비스를 등록하고 해당 서비스의 En
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzU4MjQyNSw4MzQ0MzAxNzIsOTMyNj
-I2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4
-NiwxODIyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xOD
-U3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMiwyMTI2NzE1
-MTIyLDE2MjM2ODU3NjIsNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMT
-Y1NDczNDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTE5OTgzNTUyMDEsODM0NDMwMTcyLDkzMj
+YyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5
+ODYsMTgyMjkxNzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMT
+g1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcx
+NTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0MywxNDM4NDgxMzcyLD
+E2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMz
+NzU1XX0=
 -->
