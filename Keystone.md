@@ -205,18 +205,21 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 </br>
 </br>
 
-**3. User가 Keystone으로 부터 범위 지정 토큰(Scoped Token) 획득
+**3. User가 Keystone으로 부터 범위 지정 토큰(Scoped Token) 획득**
 - Keystone은 User가 접속 가능한 프로젝트 목록과 User가 사용을 원하는 프로젝트를 결정
 - 위의 정보(프로젝트와 Role)가 포함된 Token을 User에게 보냄
 <br>
 
 <img src="./img/step_1.png" width="300" height="300">
+
+</br>
+</br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjY5NTk4MiwtMTIwOTE2OTQwLDM3ND
-EwOTk4OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1Mzk4
-LDgyMjMyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOT
-c2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC0xMDg2NjMy
-OTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2MDI3LC0xMj
-gwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkxNzc5LDExNzAwNTUz
-MzVdfQ==
+eyJoaXN0b3J5IjpbNTE2ODExNzcyLC0xMjA5MTY5NDAsMzc0MT
+A5OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4NywyMjgwMTUzOTgs
+ODIyMzIzNDE2LDEyNTIwODU0NTQsMzY5MjczMjg1LC0xMDE5Nz
+Y4NTAxLDEwNzkwODA1OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5
+MCw4MzQ0MzAxNzIsOTMyNjI2MjgzLDEwODI5NDYwMjcsLTEyOD
+A4ODA4MSwtMTgzMjgwODk4NiwxODIyOTE3NzksMTE3MDA1NTMz
+NV19
 -->
