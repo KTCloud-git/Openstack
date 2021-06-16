@@ -27,6 +27,9 @@ Keystone은 Openstack의 인증을 담당하고 있습니다.
 #
 
 Openstack이 집이라면 Keystone은 현관문 키와 같은 기능을 하는 것이 아닐까?  
+
+#
+
 Openstack이라는 집은 물리서버로 구성되어 있고, **집 안에는 Compute, Image, Network, Storage와 같은 자원들이 있다고 가정해봅시다.**
 
 #
@@ -46,7 +49,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjYxNzk0Niw2NDk3MDMwNiwyODQ1Mz
-M3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
+eyJoaXN0b3J5IjpbOTIxNTM4Mzc1LDY0OTcwMzA2LDI4NDUzMz
+c1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
 
 -->
