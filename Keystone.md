@@ -192,7 +192,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    (현재 Token에는 User가 사용가능한 서비스들에 대한 범위가 포함되어 있지 않음. 따라서 다른 서비스들에 접근이 불가능)
 </br>
 
-<img src="./img/step1.png" width="300" height="300">
+<img src="./img/step_1.png" width="300" height="300">
 
 </br>
 </br>
@@ -202,11 +202,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - Keystone은 User에게 할당된 Role에 따라 프로젝트의 종류와 수행 가능한 End-Point 목록을 작성  
    (현재 단계에서는 User에게 End-Point 목록이 전달되지 않은 상태)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MTA5OTg5LC0yNDc0MzkxNjMsMTU0Mj
-k4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0NTQs
-MzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1OTcsLTIwMz
-E2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOTMyNjI2Mjgz
-LDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4NiwxOD
-IyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xODU3NDA4
-NDg0XX0=
+eyJoaXN0b3J5IjpbLTEyMDkxNjk0MCwzNzQxMDk5ODksLTI0Nz
+QzOTE2MywxNTQyOTgyNzg3LDIyODAxNTM5OCw4MjIzMjM0MTYs
+MTI1MjA4NTQ1NCwzNjkyNzMyODUsLTEwMTk3Njg1MDEsMTA3OT
+A4MDU5NywtMjAzMTYwNTIyMCwtMTA4NjYzMjkwLDgzNDQzMDE3
+Miw5MzI2MjYyODMsMTA4Mjk0NjAyNywtMTI4MDg4MDgxLC0xOD
+MyODA4OTg2LDE4MjI5MTc3OSwxMTcwMDU1MzM1LDE5ODAwNzMw
+NjVdfQ==
 -->
