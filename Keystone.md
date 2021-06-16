@@ -60,9 +60,10 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 #
 
-dd
+이번에는 논리적인 구조를 통해 Keystone에 대해 한번 더 알아보겠습니다.  
+* 논리적인 구조에서의 Keystone은 서비스 및 관리자 API, Token Backend, Ca
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjcwMTk4OSwxNjU0NzM0NjY5LC0xNj
+eyJoaXN0b3J5IjpbMTg2MzYzODU4OSwxNjU0NzM0NjY5LC0xNj
 U2NTQxNjc5LDY0OTcwMzA2LDI4NDUzMzc1NSwzNDIzODMyMTAs
 MTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
 -->
