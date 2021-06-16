@@ -190,12 +190,15 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - User는 ID, PW를 제출하여 신분을 증명
    - Keystone은 인증에 성공한 User에게 **Unscoped Token을 발급**
    (현재 Token에는 User가 사용가능한 서비스들에 대한 범위가 포함되어 있지 않음. 따라서 다른 서비스들에 접근이 불가능)
+</br>
+
+<img src="./img/step1.png" width="400" height="400">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MDE1Mzk4LDgyMjMyMzQxNiwxMjUyMD
-g1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3
-LC0yMDMxNjA1MjIwLC0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMj
-YyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgwODEsLTE4MzI4MDg5
-ODYsMTgyMjkxNzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMT
-g1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcx
-NTEyMl19
+eyJoaXN0b3J5IjpbLTE2NjYyOTcyNDUsMjI4MDE1Mzk4LDgyMj
+MyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUw
+MSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC0xMDg2NjMyOTAsOD
+M0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgw
+ODEsLTE4MzI4MDg5ODYsMTgyMjkxNzc5LDExNzAwNTUzMzUsMT
+k4MDA3MzA2NSwtMTg1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0
+NTY5MTJdfQ==
 -->
