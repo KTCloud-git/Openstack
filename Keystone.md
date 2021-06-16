@@ -16,7 +16,7 @@
 
 Keystone은 Openstack의 인증을 담당하고 있습니다.  
 Openstack의 백엔드에서 **RBAD(Role Based Access Control)을** 통해 사용자의 접근을 제어하는 등의 인증(Identify) 서비스로 사용됩니다.  
-(참고 : ㅇ
+(참고 : 인증 컨셉 https://docs.openstack.org/keystone/latest/admin/identity-concepts.html)
 </br>
 
 어떤 서비스를 설치하더라도 가장 먼저 설치가 되는 가장 중요한 서비스이며, Keystone이 없으면 그 어떤 서비스도 이용할 수 없습니다.
@@ -145,10 +145,10 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 
 그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMjEwNTIsLTE4MzI4MDg5ODYsMTgyMj
-kxNzc5LDExNzAwNTUzMzUsMTk4MDA3MzA2NSwtMTg1NzQwODQ4
-NCw0MTY1ODkxMTcsLTEzNDI0NTY5MTIsMjEyNjcxNTEyMiwxNj
-IzNjg1NzYyLDY5OTEwNjM0MywxNDM4NDgxMzcyLDE2NTQ3MzQ2
-NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1LDM0Mj
-M4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbLTEyODA4ODA4MSwtMTgzMjgwODk4NiwxOD
+IyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xODU3NDA4
+NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMiwyMTI2NzE1MTIyLD
+E2MjM2ODU3NjIsNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMTY1NDcz
+NDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUsMz
+QyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 -->
