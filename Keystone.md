@@ -151,9 +151,9 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 그렇다면, Keystone이 어떻게 사용자와 서비스 인증 부분을 관리하는지 알아보겠습니다.
 </br>
 
-<img src="./img/Keystone in.png" width="600" height="200">
+<img src="./img/Keystone in.png" width="600" height="230">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDUyMzAwNCw4MzQ0MzAxNzIsOTMyNj
+eyJoaXN0b3J5IjpbMTc4MzU4MjQyNSw4MzQ0MzAxNzIsOTMyNj
 I2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4
 NiwxODIyOTE3NzksMTE3MDA1NTMzNSwxOTgwMDczMDY1LC0xOD
 U3NDA4NDg0LDQxNjU4OTExNywtMTM0MjQ1NjkxMiwyMTI2NzE1
