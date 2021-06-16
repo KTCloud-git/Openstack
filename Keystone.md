@@ -136,14 +136,15 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 </br>
 
-Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡고 있습니다.
+Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡고 있습니다.  
+즉, 모든 User, Service는 Keystone의 인증을 통해서만 요청, 응답이 가능
 </br>
 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjkxMzUwNCwxMTcwMDU1MzM1LDE5OD
-AwNzMwNjUsLTE4NTc0MDg0ODQsNDE2NTg5MTE3LC0xMzQyNDU2
-OTEyLDIxMjY3MTUxMjIsMTYyMzY4NTc2Miw2OTkxMDYzNDMsMT
-QzODQ4MTM3MiwxNjU0NzM0NjY5LC0xNjU2NTQxNjc5LDY0OTcw
-MzA2LDI4NDUzMzc1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNT
-AxNzkwODMwXX0=
+eyJoaXN0b3J5IjpbNjQyOTYzMDcxLDExNzAwNTUzMzUsMTk4MD
+A3MzA2NSwtMTg1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5
+MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0MywxND
+M4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAz
+MDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MD
+E3OTA4MzBdfQ==
 -->
