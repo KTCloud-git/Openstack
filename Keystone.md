@@ -23,7 +23,7 @@ Keystone은 Openstack의 인증을 담당하고 있습니다.
 
 #
 
-Openstack이 집이라면 Keystone은 현관문 키와 같은 기능을 하는 것이 아닐까?  
+Openstack이 집이라면 Keystone은 **현관문 키와 같은 기능**을 하는 것이 아닐까?  
 
 #
 
@@ -41,7 +41,7 @@ Openstack이라는 집에 들어가야만 사용할 수 있습니다.
 #
 
 즉, 내돈내산 가전제품들을 집 주인과 손님만 사용할 수 있습니다.  
-이렇듯 Openstack이 제공하는 서비스들도 동일하게 아무나 사용할 수 없습니다.
+이렇듯 **Openstack이 제공하는 서비스들도 동일하게 아무나 사용할 수 없습니다.**
 
 #
 
@@ -83,7 +83,7 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 이번에는
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTY1MTE2MSwxNDM4NDgxMzcyLDE2NT
-Q3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1
-LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbNjk5MTA2MzQzLDE0Mzg0ODEzNzIsMTY1ND
+czNDY2OSwtMTY1NjU0MTY3OSw2NDk3MDMwNiwyODQ1MzM3NTUs
+MzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
 -->
