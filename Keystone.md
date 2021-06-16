@@ -26,9 +26,13 @@ Keystone은 Openstack의 인증을 담당하고 있습니다.
 
 #
 
+Openstack이 집이라면 Keystone은 현관문 키와 같은 기능을 하는 것이 아닐까?
+
+#
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxOTYzNjg2LDY0OTcwMzA2LDI4NDUzMz
-c1NSwzNDIzODMyMTAsMTIxMzc1MTQ0NCwxNTAxNzkwODMwXX0=
-
+eyJoaXN0b3J5IjpbLTE3NDAzNTQ5NDQsNjQ5NzAzMDYsMjg0NT
+MzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBd
+fQ==
 -->
