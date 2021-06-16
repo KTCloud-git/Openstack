@@ -82,6 +82,9 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 <h3>Keystone의 구성요소</h3>
 </br>
 
+(참고 : 
+</br>
+
 **1. User**
    + 사람 또는 Openstack 서비스를 이용하는 서비스(nova, neutron, cinder 등)를 의미
    + User는 특정 프로젝트에 할당할 수 있으며, 중복을 허용하지 않음
@@ -139,10 +142,10 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 
 그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjkxNzc5LDExNzAwNTUzMzUsMTk4MD
-A3MzA2NSwtMTg1NzQwODQ4NCw0MTY1ODkxMTcsLTEzNDI0NTY5
-MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLDY5OTEwNjM0MywxND
-M4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1NDE2NzksNjQ5NzAz
-MDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MD
-E3OTA4MzBdfQ==
+eyJoaXN0b3J5IjpbLTE3OTc2MDg1NzAsMTgyMjkxNzc5LDExNz
+AwNTUzMzUsMTk4MDA3MzA2NSwtMTg1NzQwODQ4NCw0MTY1ODkx
+MTcsLTEzNDI0NTY5MTIsMjEyNjcxNTEyMiwxNjIzNjg1NzYyLD
+Y5OTEwNjM0MywxNDM4NDgxMzcyLDE2NTQ3MzQ2NjksLTE2NTY1
+NDE2NzksNjQ5NzAzMDYsMjg0NTMzNzU1LDM0MjM4MzIxMCwxMj
+EzNzUxNDQ0LDE1MDE3OTA4MzBdfQ==
 -->
