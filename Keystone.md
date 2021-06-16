@@ -44,9 +44,15 @@ Openstack이라는 집에 들어가야만 사용할 수 있습니다.
 그렇기 때문에 집 주인과 손님이라는 인증을 받아야만 해당 가전제품(자원)들을 사용할 수 있는데,  
 Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편합니다.
 
+#
+
+**결과적으로 Keystone은 사용자 인증을 통하여 물리 서버내의 자원을 사용할 수 있도록 관리합니다.**
+
+#
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Njc0NzM2Miw2NDk3MDMwNiwyODQ1Mz
-M3NTUsMzQyMzgzMjEwLDEyMTM3NTE0NDQsMTUwMTc5MDgzMF19
-
+eyJoaXN0b3J5IjpbLTE2NTY1NDE2NzksNjQ5NzAzMDYsMjg0NT
+MzNzU1LDM0MjM4MzIxMCwxMjEzNzUxNDQ0LDE1MDE3OTA4MzBd
+fQ==
 -->
