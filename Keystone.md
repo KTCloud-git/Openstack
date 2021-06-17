@@ -243,7 +243,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 **6. 검증이 완료된 Token을 서비스에게 제공**
 - User가 요청한 서비스에 접근이 가능한지 Token의 메타데이터 검증을 마친 Keystone은 그 결과를 서비스에게 제공
-- <br>
+<br>
 
 <img src="./img/step6.png" width="500" height="400">
 
@@ -252,7 +252,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 **7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDgwMDQ0MywxNDY2NzcxNzE3LDEzMz
+eyJoaXN0b3J5IjpbMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMz
 U5MDA2NjAsODU0NDQ0NjUzLC0xNTgwMzgyMzgwLC0xMjUyNTAz
 Mzc1LC0xNjI1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2OTQwLD
 M3NDEwOTk4OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1
