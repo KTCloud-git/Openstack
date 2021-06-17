@@ -226,15 +226,15 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 범위가 지정된 Token을 받은 User는 Token 내부의 End-Point를 확인하고 서비스에게 수행을 요청
 <br>
 
-<img src="./img/step4.png" width="400" height="300">
+<img src="./img/step4.png" width="500" height="400">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTY3MzA0LC0xNTgwMzgyMzgwLC0xMj
-UyNTAzMzc1LC0xNjI1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2
-OTQwLDM3NDEwOTk4OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMj
-I4MDE1Mzk4LDgyMjMyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4
-NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC
-0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2
-MDI3XX0=
+eyJoaXN0b3J5IjpbLTg3NDUxNDY2NCwtMTU4MDM4MjM4MCwtMT
+I1MjUwMzM3NSwtMTYyNTU5NTM3LDE1MjE1MzYyODgsLTEyMDkx
+Njk0MCwzNzQxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgyNzg3LD
+IyODAxNTM5OCw4MjIzMjM0MTYsMTI1MjA4NTQ1NCwzNjkyNzMy
+ODUsLTEwMTk3Njg1MDEsMTA3OTA4MDU5NywtMjAzMTYwNTIyMC
+wtMTA4NjYzMjkwLDgzNDQzMDE3Miw5MzI2MjYyODMsMTA4Mjk0
+NjAyN119
 -->
