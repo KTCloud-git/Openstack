@@ -218,7 +218,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 </br>
 </br>
 
-**※ 4~7번의 과정은 서비스 수행 요청마다 진행**
+### **※ 4~7번의 과정은 서비스 수행 요청마다 진행**
 
 </br>
 
@@ -226,11 +226,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 범위가 지정된 Token을 받은 User는 Token 내부의 End-Point를 확인하고 서비스에게 수행을 요청
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0MDgzMjIzLC0xMjUyNTAzMzc1LC0xNj
-I1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2OTQwLDM3NDEwOTk4
-OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1Mzk4LDgyMj
-MyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUw
-MSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC0xMDg2NjMyOTAsOD
-M0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgw
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODAzODIzODAsLTEyNTI1MDMzNzUsLT
+E2MjU1OTUzNywxNTIxNTM2Mjg4LC0xMjA5MTY5NDAsMzc0MTA5
+OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4NywyMjgwMTUzOTgsOD
+IyMzIzNDE2LDEyNTIwODU0NTQsMzY5MjczMjg1LC0xMDE5NzY4
+NTAxLDEwNzkwODA1OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5MC
+w4MzQ0MzAxNzIsOTMyNjI2MjgzLDEwODI5NDYwMjcsLTEyODA4
+ODA4MV19
 -->
