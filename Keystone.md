@@ -250,14 +250,20 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 </br>
 </br>
 
-**7. 서비스가 사용자의 요청 실행**
+**7. 서비스가 User의 요청 실행**
 - 서비스는 Keystone으로부터 Token 검증을 완료한 후 인스턴스를 실행하거나 볼륨을 생성하는 등의 요청을 수행
+
+</br>
+</br>
+
+**8. 작업에 대한 응답**
+- 서비스는 User의 요청에 대한 수행 결과를 응답
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Nj
-c3MTcxNywxMzM1OTAwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4
-MCwtMTI1MjUwMzM3NSwtMTYyNTU5NTM3LDE1MjE1MzYyODgsLT
-EyMDkxNjk0MCwzNzQxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgy
-Nzg3LDIyODAxNTM5OCw4MjIzMjM0MTYsMTI1MjA4NTQ1NCwzNj
-kyNzMyODUsLTEwMTk3Njg1MDEsMTA3OTA4MDU5NywtMjAzMTYw
-NTIyMF19
+eyJoaXN0b3J5IjpbLTg0MjUyNDY5OCw2NDAyNzY5MTYsMjEwNz
+U0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjAsODU0NDQ0NjUz
+LC0xNTgwMzgyMzgwLC0xMjUyNTAzMzc1LC0xNjI1NTk1MzcsMT
+UyMTUzNjI4OCwtMTIwOTE2OTQwLDM3NDEwOTk4OSwtMjQ3NDM5
+MTYzLDE1NDI5ODI3ODcsMjI4MDE1Mzk4LDgyMjMyMzQxNiwxMj
+UyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUwMSwxMDc5MDgw
+NTk3XX0=
 -->
