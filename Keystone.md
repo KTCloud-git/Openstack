@@ -213,7 +213,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 위의 정보(프로젝트와 Role)가 포함된 Token을 User에게 보냄
 <br>
 
-<img src="./img/step_2.png" width="300" height="300">
+<img src="./img/step3.png" width="300" height="300">
 
 </br>
 </br>
@@ -226,11 +226,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 범위가 지정된 Token을 받은 User는 Token 내부의 End-Point를 확인하고 서비스에게 수행을 요청
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI1MDMzNzUsLTE2MjU1OTUzNywxNT
-IxNTM2Mjg4LC0xMjA5MTY5NDAsMzc0MTA5OTg5LC0yNDc0Mzkx
-NjMsMTU0Mjk4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNT
-IwODU0NTQsMzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1
-OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOT
-MyNjI2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgw
-ODk4Nl19
+eyJoaXN0b3J5IjpbNDY0MDgzMjIzLC0xMjUyNTAzMzc1LC0xNj
+I1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2OTQwLDM3NDEwOTk4
+OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1Mzk4LDgyMj
+MyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUw
+MSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC0xMDg2NjMyOTAsOD
+M0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2MDI3LC0xMjgwODgw
+ODFdfQ==
 -->
