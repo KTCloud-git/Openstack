@@ -201,6 +201,9 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    - 신분 증명을 완료하여 Unscoped Token을 받은 User는 해당 Token을 통해 자신이 접속 가능한 프로젝트를 요청
    - Keystone은 User에게 할당된 Role에 따라 프로젝트의 종류와 수행 가능한 End-Point 목록을 작성  
    (현재 단계에서는 User에게 End-Point 목록이 전달되지 않은 상태)
+</br>
+
+<img src="./img/step2.png" width="300" height="300">
 
 </br>
 </br>
@@ -223,11 +226,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 범위가 지정된 Token을 받은 User는 Token 내부의 End-Point를 확인하고 서비스에게 수행을 요청
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU1OTUzNywxNTIxNTM2Mjg4LC0xMj
-A5MTY5NDAsMzc0MTA5OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4
-NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0NTQsMzY5Mj
-czMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1OTcsLTIwMzE2MDUy
-MjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOTMyNjI2MjgzLDEwOD
-I5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4NiwxODIyOTE3
-NzldfQ==
+eyJoaXN0b3J5IjpbLTEyNTI1MDMzNzUsLTE2MjU1OTUzNywxNT
+IxNTM2Mjg4LC0xMjA5MTY5NDAsMzc0MTA5OTg5LC0yNDc0Mzkx
+NjMsMTU0Mjk4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNT
+IwODU0NTQsMzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1
+OTcsLTIwMzE2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOT
+MyNjI2MjgzLDEwODI5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgw
+ODk4Nl19
 -->
