@@ -234,14 +234,16 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 **5. 요청을 받은 서비스가 Keystone에게 Token 검증 의뢰**
 - 서비스는 User가 요청과 함께 제출한 Token의 메타데이터 정보가 유효한지 검증하기 위해 Keystone에게 의뢰
 - Keystone은 서비스로부터 받은(User가 서비스에게 제출한) 메타데이터와 Policy Backend에 저장된 메타데이터와 비교(RBAC)
+<br>
 
+<img src="./img/step5.png" width="500" height="400">
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NDQ0NjUzLC0xNTgwMzgyMzgwLC0xMj
-UyNTAzMzc1LC0xNjI1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2
-OTQwLDM3NDEwOTk4OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMj
-I4MDE1Mzk4LDgyMjMyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4
-NSwtMTAxOTc2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC
-0xMDg2NjMyOTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2
-MDI3XX0=
+eyJoaXN0b3J5IjpbMTMzNTkwMDY2MCw4NTQ0NDQ2NTMsLTE1OD
+AzODIzODAsLTEyNTI1MDMzNzUsLTE2MjU1OTUzNywxNTIxNTM2
+Mjg4LC0xMjA5MTY5NDAsMzc0MTA5OTg5LC0yNDc0MzkxNjMsMT
+U0Mjk4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0
+NTQsMzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1OTcsLT
+IwMzE2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOTMyNjI2
+MjgzXX0=
 -->
