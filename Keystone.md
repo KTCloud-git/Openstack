@@ -192,7 +192,7 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
    (현재 Token에는 User가 사용가능한 서비스들에 대한 범위가 포함되어 있지 않음. 따라서 다른 서비스들에 접근이 불가능)
 </br>
 
-<img src="./img/step_1.png" width="300" height="300">
+<img src="./img/step1.png" width="300" height="300">
 
 </br>
 </br>
@@ -223,11 +223,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 - 범위가 지정된 Token을 받은 User는 Token 내부의 End-Point를 확인하고 서비스에게 수행을 요청
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTUzNjI4OCwtMTIwOTE2OTQwLDM3ND
-EwOTk4OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1Mzk4
-LDgyMjMyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOT
-c2ODUwMSwxMDc5MDgwNTk3LC0yMDMxNjA1MjIwLC0xMDg2NjMy
-OTAsODM0NDMwMTcyLDkzMjYyNjI4MywxMDgyOTQ2MDI3LC0xMj
-gwODgwODEsLTE4MzI4MDg5ODYsMTgyMjkxNzc5LDExNzAwNTUz
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTE2MjU1OTUzNywxNTIxNTM2Mjg4LC0xMj
+A5MTY5NDAsMzc0MTA5OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4
+NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0NTQsMzY5Mj
+czMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1OTcsLTIwMzE2MDUy
+MjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOTMyNjI2MjgzLDEwOD
+I5NDYwMjcsLTEyODA4ODA4MSwtMTgzMjgwODk4NiwxODIyOTE3
+NzldfQ==
 -->
