@@ -228,9 +228,16 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 <img src="./img/step4.png" width="500" height="400">
 
+</br>
+</br>
+
+**5. 요청을 받은 서비스가 Keystone에게 Token 검증 의뢰**
+- 서비스는 사용자가 요청과 함께 제출한 Token의 메타데이터 정보가 유효한지 검증하기 위해 Keystone에게 의뢰
+- Keystone은 서비스
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDUxNDY2NCwtMTU4MDM4MjM4MCwtMT
+eyJoaXN0b3J5IjpbLTEwNDQ5NjM5MCwtMTU4MDM4MjM4MCwtMT
 I1MjUwMzM3NSwtMTYyNTU5NTM3LDE1MjE1MzYyODgsLTEyMDkx
 Njk0MCwzNzQxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgyNzg3LD
 IyODAxNTM5OCw4MjIzMjM0MTYsMTI1MjA4NTQ1NCwzNjkyNzMy
