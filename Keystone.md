@@ -238,12 +238,17 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 <img src="./img/step5.png" width="500" height="400">
 
+</br>
+</br>
+
+**6. 검증이 완료된 Token을 서비스에게 제공**
+- User가 요청한 서비스에 접근이 가능한지 Token의 메타데이터 검증을 마친 Keystone은 그 결과를 서비스에게 제공
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTkwMDY2MCw4NTQ0NDQ2NTMsLTE1OD
-AzODIzODAsLTEyNTI1MDMzNzUsLTE2MjU1OTUzNywxNTIxNTM2
-Mjg4LC0xMjA5MTY5NDAsMzc0MTA5OTg5LC0yNDc0MzkxNjMsMT
-U0Mjk4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0
-NTQsMzY5MjczMjg1LC0xMDE5NzY4NTAxLDEwNzkwODA1OTcsLT
-IwMzE2MDUyMjAsLTEwODY2MzI5MCw4MzQ0MzAxNzIsOTMyNjI2
-MjgzXX0=
+eyJoaXN0b3J5IjpbMTQ2Njc3MTcxNywxMzM1OTAwNjYwLDg1ND
+Q0NDY1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3NSwtMTYyNTU5
+NTM3LDE1MjE1MzYyODgsLTEyMDkxNjk0MCwzNzQxMDk5ODksLT
+I0NzQzOTE2MywxNTQyOTgyNzg3LDIyODAxNTM5OCw4MjIzMjM0
+MTYsMTI1MjA4NTQ1NCwzNjkyNzMyODUsLTEwMTk3Njg1MDEsMT
+A3OTA4MDU5NywtMjAzMTYwNTIyMCwtMTA4NjYzMjkwLDgzNDQz
+MDE3Ml19
 -->
