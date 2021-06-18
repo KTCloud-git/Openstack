@@ -315,8 +315,7 @@ Domain은 위에서 설명했었지만, User 및 Group, Project의 모음으로,
 
 Domain 관리자는 Domain에서 Project 및 User, Group을 만들고 Domain의 User 및 Group에 Role을 할당할 수 있습니다.
 - Domain의 User는 적절한 할당이 부여된 경우, 다른 Domain 자원에 접근이 가능
-</br>
-</br>
+</br></br></br></br>
 
 > #### Project(Tenant)
 Project(Tenant)는 Identity v2까지 Tenant라는 용어로 불렸지만, 개념적 표현보다는 직관적인 표현으로 표기하기 위해 Identity v3부터 Project라는 용어로 변경되었습니다.
@@ -333,18 +332,16 @@ Keystone의 가장 근본적인 목적은 Project의 Registry와 접근 가능 �
 
 Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Project 리소스에 대한 접근 가능 권한을 부여할 수 있습니다.  
 권한이 부여된 User는 특정 Role에 따라 접근 유형 및 기능이 결정됩니다.
-
-
+</br></br></br></br>
 
 > #### User
-
 dwadsadas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Mzg3NDczOSwyNTE3MjY1MjgsMjA3MT
-Y1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2Nzkx
-Niw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOT
-ExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwt
-ODQyNTI0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3Nz
-E3MTcsMTMzNTkwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODBd
-fQ==
+eyJoaXN0b3J5IjpbLTExODQ1NDcyMjcsMjUxNzI2NTI4LDIwNz
+E2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5
+MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMz
+kxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEs
+LTg0MjUyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2Nz
+cxNzE3LDEzMzU5MDA2NjAsODU0NDQ0NjUzLC0xNTgwMzgyMzgw
+XX0=
 -->
