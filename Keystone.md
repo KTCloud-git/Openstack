@@ -287,6 +287,8 @@ Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-
 그리고 아래에서 설명할 Domain의 집합이기도 합니다.
 </br>
 </br>
+</br>
+</br>
 
 > #### Domain
 </br>
@@ -314,7 +316,7 @@ Domain은 위에서 설명했었지만, User 및 Group, Project의 모음으로,
 Domain 관리자는 Domain에서 Project 및 User, Group을 만들고 Domain의 User 및 Group에 Role을 할당할 수 있습니다.
 - Domain의 User는 적절한 할당이 부여된 경우, 다른 Domain 자원에 접근이 가능
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzM4MjIzNCwyMDcxNjUzMzMyLC0xNz
+eyJoaXN0b3J5IjpbMTI2MTYxMjk4NiwyMDcxNjUzMzMyLC0xNz
 U5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgw
 MCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5ND
 c1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgs
