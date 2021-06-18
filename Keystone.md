@@ -274,16 +274,17 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 > #### Region
 </br>
+
 (Region 사용법 : https://docs.openstack.org/python-openstackclient/rocky/cli/command-objects/region.html)
 </br>
 
 <img src="./img/region.png" width="550" height="350">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgwMzEzNyw1NTgwODMyMDAsLTE0Mz
-M5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgx
-LC04NDI1MjQ2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Nj
-c3MTcxNywxMzM1OTAwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4
-MCwtMTI1MjUwMzM3NSwtMTYyNTU5NTM3LDE1MjE1MzYyODgsLT
-EyMDkxNjk0MCwzNzQxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgy
-Nzg3XX0=
+eyJoaXN0b3J5IjpbMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOT
+ExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwt
+ODQyNTI0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3Nz
+E3MTcsMTMzNTkwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAs
+LTEyNTI1MDMzNzUsLTE2MjU1OTUzNywxNTIxNTM2Mjg4LC0xMj
+A5MTY5NDAsMzc0MTA5OTg5LC0yNDc0MzkxNjMsMTU0Mjk4Mjc4
+N119
 -->
