@@ -334,9 +334,13 @@ Keystone의 가장 근본적인 목적은 Project의 Registry와 접근 가능 �
 Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Project 리소스에 대한 접근 가능 권한을 부여할 수 있습니다.  
 권한이 부여된 User는 특정 Role에 따라 접근 유형 및 기능이 결정됩니다.
 
-ㅇ
+
+
+> #### User
+
+dwadsadas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjUzNzkzNywyNTE3MjY1MjgsMjA3MT
+eyJoaXN0b3J5IjpbMTk4Mzg3NDczOSwyNTE3MjY1MjgsMjA3MT
 Y1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2Nzkx
 Niw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOT
 ExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwt
