@@ -73,8 +73,8 @@ Keystone이 해당 부분을 담당하고 있다고 생각하면 이해가 편�
 
 </br>
 
-+ **Token Backend** : 사용자 별 Token 관리
-+ **Catalog Backend** : Openstack 모든 서비스의 End-Point URL 관리
++ **Token Backend** : 사용자의 임시 토큰(Openstack 서비스에 접근하기 위한 신분 증명 데이터)을 관리
++ **Catalog Backend** : 모든 Openstack 서비스에 대한 End-Point URL 관리(Openstack client에서 Openstack
 + **Policy Backend** : Tenant, 사용자 계정 및 Role 등을 관리
 + **Identity Backend** : 전체적인 사용자 인증 관리
 
@@ -262,11 +262,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 <img src="./img/step7.png" width="500" height="400">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1Mj
-Q2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywx
-MzM1OTAwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4MCwtMTI1Mj
-UwMzM3NSwtMTYyNTU5NTM3LDE1MjE1MzYyODgsLTEyMDkxNjk0
-MCwzNzQxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgyNzg3LDIyOD
-AxNTM5OCw4MjIzMjM0MTYsMTI1MjA4NTQ1NCwzNjkyNzMyODVd
+eyJoaXN0b3J5IjpbLTM3ODIxMzM0LDY3NTEyMTI0Miw3NTgwMD
+I4MSwtODQyNTI0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0
+NjY3NzE3MTcsMTMzNTkwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzOD
+IzODAsLTEyNTI1MDMzNzUsLTE2MjU1OTUzNywxNTIxNTM2Mjg4
+LC0xMjA5MTY5NDAsMzc0MTA5OTg5LC0yNDc0MzkxNjMsMTU0Mj
+k4Mjc4NywyMjgwMTUzOTgsODIyMzIzNDE2LDEyNTIwODU0NTRd
 fQ==
 -->
