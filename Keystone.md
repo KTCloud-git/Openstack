@@ -326,12 +326,15 @@ Project란 Openstack 서비스 리소스(Server, Image 등 - Project 및 Domain�
 Project의 Domain을 지정하지 않으면 Default라는 기본 Domain에 추가됩니다.
 - Identity API v3.4 이후, Project 생성시 Project 계층 구조(parent_id)를 생성할 수 있으며, 계층 구조의 모든 Project는 동일한 Domain에서 소유해야 합니다.
 - **Identity API v3.6 이후, Project는 Openstack 리소스에 대한 컨테이너 역할을 하는 것 외에도 Domain 역할을 할 수 있습니다.**
+</br>
+
+Keystone의 가장 근본적인 목적은 Project의 Registry와 접근 가능 여부가 명확해야 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzYzOTExMiwyMDcxNjUzMzMyLC0xNz
-U5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgw
-MCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5ND
-c1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgs
-NjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywxMzM1OT
-AwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3
-NV19
+eyJoaXN0b3J5IjpbLTEzMjc4OTQ0NTAsMjA3MTY1MzMzMiwtMT
+c1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4
+MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOT
+Q3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4
+LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMzNT
+kwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAsLTEyNTI1MDMz
+NzVdfQ==
 -->
