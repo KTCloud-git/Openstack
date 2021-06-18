@@ -344,8 +344,14 @@ User는 Openstack 서비스를 이용하는 사람 또는 서비스(Nova, Cinder
 </br>
 
 Group은 User 집합을 의미하며, Group은 Domain 내에서 고유해야 합니다.
+</br></br></br></br>
+
+> #### Role
+</br>
+
+User 및 Group에게
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM2MTI0NjAsMTgyODAwMjgwNiwyNT
+eyJoaXN0b3J5IjpbLTEyMDg3MTg0ODAsMTgyODAwMjgwNiwyNT
 E3MjY1MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzEx
 MjQwLDE1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MD
 gzMjAwLC0xNDMzOTExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0
