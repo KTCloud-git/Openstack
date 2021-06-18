@@ -258,15 +258,20 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 **8. 작업에 대한 응답**
 - 서비스는 User의 요청에 대한 수행 결과를 응답
-<br>
+</br>
 
 <img src="./img/step7.png" width="500" height="400">
+
+</br>
+</br>
+
+<img src="./img/Domain.png" width="500" height="400">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYsNj
-c1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgsNjQwMjc2OTE2
-LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywxMzM1OTAwNjYwLDg1ND
-Q0NDY1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3NSwtMTYyNTU5
-NTM3LDE1MjE1MzYyODgsLTEyMDkxNjk0MCwzNzQxMDk5ODksLT
-I0NzQzOTE2MywxNTQyOTgyNzg3LDIyODAxNTM5OCw4MjIzMjM0
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTQ0MzMyMTI4OSwtMTQzMzkxMTczNCwtMT
+k0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5
+OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMz
+U5MDA2NjAsODU0NDQ0NjUzLC0xNTgwMzgyMzgwLC0xMjUyNTAz
+Mzc1LC0xNjI1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2OTQwLD
+M3NDEwOTk4OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1
+Mzk4XX0=
 -->
