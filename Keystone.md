@@ -318,6 +318,8 @@ Domain 관리자는 Domain에서 Project 및 User, Group을 만들고 Domain의 
 </br></br></br></br>
 
 > #### Project(Tenant)
+</br>
+
 Project(Tenant)는 Identity v2까지 Tenant라는 용어로 불렸지만, 개념적 표현보다는 직관적인 표현으로 표기하기 위해 Identity v3부터 Project라는 용어로 변경되었습니다.
 </br>
 
@@ -334,14 +336,14 @@ Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Proj
 권한이 부여된 User는 특정 Role에 따라 접근 유형 및 기능이 결정됩니다.
 </br></br></br></br>
 
-> #### User
+> #### User와 Group
 dwadsadas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ1NDcyMjcsMjUxNzI2NTI4LDIwNz
-E2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5
-MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMz
-kxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEs
-LTg0MjUyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2Nz
-cxNzE3LDEzMzU5MDA2NjAsODU0NDQ0NjUzLC0xNTgwMzgyMzgw
-XX0=
+eyJoaXN0b3J5IjpbNDU1ODIwMDM1LDI1MTcyNjUyOCwyMDcxNj
+UzMzMyLC0xNzU5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2
+LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MT
+E3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04
+NDI1MjQ2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MT
+cxNywxMzM1OTAwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4MF19
+
 -->
