@@ -307,12 +307,18 @@ Domain은 위에서 설명했었지만, User 및 Group, Project의 모음으로,
 - Domain Name : 모든 Domain에서 고유해야 함
 - Role Name : Domain 내에서 고유해야 함
 - User Name : Domain 내에서 고유해야 함
+- Project Name : Domain 내에서 고유해야 함
+- Group Name : Domain 내에서 고유해야 함
+</br>
+
+Domain 관리자는 Domain에서 Project 및 User, Group을 만들고 Domain의 User 및 Group에 Role을 할당할 수 있습니다.
+- Domain의 User는 적절한 할당이 부여된 경우, 다른 Domain 자원에 접근이 가능
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzA5MTAzMiwyMDcxNjUzMzMyLC0xNz
-U5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgw
-MCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5ND
-c1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgs
-NjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywxMzM1OT
-AwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3
-NV19
+eyJoaXN0b3J5IjpbLTEzNjI1MTE1NTksMjA3MTY1MzMzMiwtMT
+c1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4
+MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOT
+Q3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4
+LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMzNT
+kwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAsLTEyNTI1MDMz
+NzVdfQ==
 -->
