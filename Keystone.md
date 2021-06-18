@@ -281,13 +281,15 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 <img src="./img/region.png" width="550" height="350">
 </br>
 
-Region은 Identity
+Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-Point를 가진 별개의 Openstack 환경입니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4Mz
-IwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIs
-NzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNzY5MTYsMjEwNzU0Nj
-YwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjAsODU0NDQ0NjUzLC0x
-NTgwMzgyMzgwLC0xMjUyNTAzMzc1LC0xNjI1NTk1MzcsMTUyMT
-UzNjI4OCwtMTIwOTE2OTQwLDM3NDEwOTk4OSwtMjQ3NDM5MTYz
-XX0=
+eyJoaXN0b3J5IjpbLTIwNjIwMjQ5MjcsOTY3Mjg1ODAwLDI1Nj
+g0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5
+Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNz
+Y5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjAs
+ODU0NDQ0NjUzLC0xNTgwMzgyMzgwLC0xMjUyNTAzMzc1LC0xNj
+I1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2OTQwLDM3NDEwOTk4
+OV19
 -->
