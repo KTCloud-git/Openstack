@@ -275,8 +275,9 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 > #### Region
 </br>
 
+<img src="./img/region.png" width="500" height="400">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTUxMTIwMCw1NTgwODMyMDAsLTE0Mz
+eyJoaXN0b3J5IjpbMTY2NzQ0MTU1MCw1NTgwODMyMDAsLTE0Mz
 M5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgx
 LC04NDI1MjQ2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Nj
 c3MTcxNywxMzM1OTAwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4
