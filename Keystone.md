@@ -269,13 +269,13 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 ## Open stack 서비스는 자원을 어떤 단위로 관리할까?
 
-### Region / Domain / Project의 개념
+### Region / Domain / Project의 개념  
 
 > Region
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDAzMzI4LC0xNDMzOTExNzM0LC0xOT
+eyJoaXN0b3J5IjpbNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOT
 Q3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4
 LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMzNT
 kwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAsLTEyNTI1MDMz
