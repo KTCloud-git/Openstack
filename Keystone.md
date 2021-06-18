@@ -294,16 +294,16 @@ Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-
 (Domain, Project, User, Role 생성 : https://docs.openstack.org/mitaka/ko_KR/install-guide-rdo/keystone-users.html)
 <br>
 
-<img src="./img/Domain.png" width="550" height="450">
+<img src="./img/Domain.png" width="550" height="400">
 </br>
 
 dd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDY3OTE2LDk2NzI4NTgwMCwyNTY4ND
-M5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYs
-Njc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgsNjQwMjc2OT
-E2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywxMzM1OTAwNjYwLDg1
-NDQ0NDY1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3NSwtMTYyNT
-U5NTM3LDE1MjE1MzYyODgsLTEyMDkxNjk0MCwzNzQxMDk5ODld
+eyJoaXN0b3J5IjpbNDcxOTE4NTM1LDE1MzQ2NzkxNiw5NjcyOD
+U4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0x
+OTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Nj
+k4LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMz
+NTkwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAsLTEyNTI1MD
+MzNzUsLTE2MjU1OTUzNywxNTIxNTM2Mjg4LC0xMjA5MTY5NDBd
 fQ==
 -->
