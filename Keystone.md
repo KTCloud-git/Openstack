@@ -340,9 +340,9 @@ Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Proj
 </br>
 
 User와 Group도 위에서 설명했지만,  
-User는 Openstack 서비스를 이용하는 사람 또는 서비스(Nova, 
+User는 Openstack 서비스를 이용하는 사람 또는 서비스(Nova, Cinder 등)를 의미하며, User는 Domain 내에서 고유해야 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzQ2NDkyNSwyNTE3MjY1MjgsMjA3MT
+eyJoaXN0b3J5IjpbMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MT
 Y1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2Nzkx
 Niw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOT
 ExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwt
