@@ -296,7 +296,7 @@ Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-
 (Domain, Project, User, Role 생성 : https://docs.openstack.org/mitaka/ko_KR/install-guide-rdo/keystone-users.html)
 <br>
 
-<img src="./img/Domain.png" width="750" height="410">
+<img src="./img/Domain.png" width="750" height="400">
 </br>
 
 Domain은 위에서 설명했었지만, User 및 Group, Project의 모음으로, 특정 조직을 격리할 수 있습니다.
@@ -345,11 +345,11 @@ User는 Openstack 서비스를 이용하는 사람 또는 서비스(Nova, Cinder
 
 Group은 User 집합을 의미하며, Group은 Domain 내에서 고유해야 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzc1MDc0MSwxODI4MDAyODA2LDI1MT
-cyNjUyOCwyMDcxNjUzMzMyLC0xNzU5NTY2NzMxLDExNjUzMTEy
-NDAsMTUzNDY3OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwOD
-MyMDAsLTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQy
-LDc1ODAwMjgxLC04NDI1MjQ2OTgsNjQwMjc2OTE2LDIxMDc1ND
-Y2MDAsMTQ2Njc3MTcxNywxMzM1OTAwNjYwLDg1NDQ0NDY1M119
-
+eyJoaXN0b3J5IjpbLTE3MzM2MTI0NjAsMTgyODAwMjgwNiwyNT
+E3MjY1MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzEx
+MjQwLDE1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MD
+gzMjAwLC0xNDMzOTExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0
+Miw3NTgwMDI4MSwtODQyNTI0Njk4LDY0MDI3NjkxNiwyMTA3NT
+Q2NjAwLDE0NjY3NzE3MTcsMTMzNTkwMDY2MCw4NTQ0NDQ2NTNd
+fQ==
 -->
