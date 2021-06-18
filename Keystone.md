@@ -297,14 +297,17 @@ Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-
 <img src="./img/Domain.png" width="750" height="420">
 </br>
 
-Domain은 위에서 설명했었지만, 
+Domain은 위에서 설명했었지만, User 및 Group, Project의 모음으로, 특정 조직을 격리할 수 있습니다.
+</br>
+
+현재 Keys
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzgzNzE2LC0xNzU5NTY2NzMxLDExNj
-UzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1
-NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MT
-IxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgsNjQwMjc2OTE2LDIx
-MDc1NDY2MDAsMTQ2Njc3MTcxNywxMzM1OTAwNjYwLDg1NDQ0ND
-Y1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3NSwtMTYyNTU5NTM3
-XX0=
+eyJoaXN0b3J5IjpbLTE1MTA4MzgxNTIsLTE3NTk1NjY3MzEsMT
+E2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3
+LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2Nz
+UxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNzY5MTYs
+MjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjAsODU0ND
+Q0NjUzLC0xNTgwMzgyMzgwLC0xMjUyNTAzMzc1LC0xNjI1NTk1
+MzddfQ==
 -->
