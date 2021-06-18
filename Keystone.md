@@ -329,12 +329,16 @@ Project의 Domain을 지정하지 않으면 Default라는 기본 Domain에 추�
 </br>
 
 Keystone의 가장 근본적인 목적은 Project의 Registry와 접근 가능 여부가 명확해야 합니다.
+</br>
+
+Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Project 리소스에 대한 접근 가능 권한을 부여할 수 있습니다.  
+권한이 부여된 User는 특정 Role에 따라 접근 유형 및 기능이 결정됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc4OTQ0NTAsMjA3MTY1MzMzMiwtMT
-c1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4
-MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOT
-Q3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4
-LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMzNT
-kwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAsLTEyNTI1MDMz
-NzVdfQ==
+eyJoaXN0b3J5IjpbMjUxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NT
+k1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAw
+LDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0Nz
+U0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2
+NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MD
+A2NjAsODU0NDQ0NjUzLC0xNTgwMzgyMzgwLC0xMjUyNTAzMzc1
+XX0=
 -->
