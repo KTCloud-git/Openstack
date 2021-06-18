@@ -145,7 +145,7 @@ Openstack에서 Keystone은 모든 서비스를 관장하는 위치에 자리잡
 모든 User, Service는 Keystone의 인증을 통해서만 요청, 응답이 가능합니다.
 </br>
 
-그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등로 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
+그리고 **타인이나 해커로부터 시스템을 안전하게 보호하고, 사용자 등록 및 삭제, 권한 관리, 사용자가 접근할 수 있는 서비스 포인트 관리까지 사용자 인증에 대한 모든 관리**를 Keystone이 수행하고 있습니다.
 </br>
 </br>
 </br>
@@ -262,11 +262,11 @@ Token과 Tenant, User, Role의 관계는 파악을 한 상태이기 때문에
 
 <img src="./img/step7.png" width="500" height="400">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNz
-Y5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjAs
-ODU0NDQ0NjUzLC0xNTgwMzgyMzgwLC0xMjUyNTAzMzc1LC0xNj
-I1NTk1MzcsMTUyMTUzNjI4OCwtMTIwOTE2OTQwLDM3NDEwOTk4
-OSwtMjQ3NDM5MTYzLDE1NDI5ODI3ODcsMjI4MDE1Mzk4LDgyMj
-MyMzQxNiwxMjUyMDg1NDU0LDM2OTI3MzI4NSwtMTAxOTc2ODUw
-MV19
+eyJoaXN0b3J5IjpbNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1Mj
+Q2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywx
+MzM1OTAwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4MCwtMTI1Mj
+UwMzM3NSwtMTYyNTU5NTM3LDE1MjE1MzYyODgsLTEyMDkxNjk0
+MCwzNzQxMDk5ODksLTI0NzQzOTE2MywxNTQyOTgyNzg3LDIyOD
+AxNTM5OCw4MjIzMjM0MTYsMTI1MjA4NTQ1NCwzNjkyNzMyODVd
+fQ==
 -->
