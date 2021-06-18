@@ -297,9 +297,10 @@ Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-
 <img src="./img/Domain.png" width="750" height="400">
 </br>
 
-Domain은 Identity 
+Domain은 Openstack Identity 엔티티 관리에 대한 영역을 정의하는 Project, Group 및 User들의 집합을 나타냅니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA5NTU5MjMsMTE2NTMxMTI0MCwxNT
+eyJoaXN0b3J5IjpbLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNT
 M0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwt
 MTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MD
 AyODEsLTg0MjUyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwx
