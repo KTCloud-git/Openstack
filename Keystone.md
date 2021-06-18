@@ -304,9 +304,11 @@ Domain은 위에서 설명했었지만, User 및 Group, Project의 모음으로,
 </br>
 
 각 Domain은 특정 API 이름 속성이 존재하는 Namespace를 정의하며, Identity v3 API 속성의 고유성은 아래와 같습니다.
-- Domain N
+- Domain Name : 모든 Domain에서 고유해야 함
+- Role Name : Domain 내에서 고유해야 함
+- User Name : Domain 내에서 고유해야 함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzUyMDMxMiwyMDcxNjUzMzMyLC0xNz
+eyJoaXN0b3J5IjpbLTU4NzA5MTAzMiwyMDcxNjUzMzMyLC0xNz
 U5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgw
 MCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5ND
 c1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgs
