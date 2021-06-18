@@ -350,12 +350,18 @@ Group은 User 집합을 의미하며, Group은 Domain 내에서 고유해야 합
 </br>
 
 User 및 Group에게 Role을 할당하여 Project 리소스에 접근할 수 있는 집합을 의미하며, Role은 User에게 발행된 Token에서 확인할 수 있습니다.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzY3MDAzMiwxODI4MDAyODA2LDI1MT
-cyNjUyOCwyMDcxNjUzMzMyLC0xNzU5NTY2NzMxLDExNjUzMTEy
-NDAsMTUzNDY3OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwOD
-MyMDAsLTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQy
-LDc1ODAwMjgxLC04NDI1MjQ2OTgsNjQwMjc2OTE2LDIxMDc1ND
-Y2MDAsMTQ2Njc3MTcxNywxMzM1OTAwNjYwLDg1NDQ0NDY1M119
+</br></br></br></br>
 
+> #### Token
+</br>
+
+Token은 Open
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY2NTY4NDQyNSwxODYzNjcwMDMyLDE4Mj
+gwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3
+MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Nj
+g0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5
+Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNz
+Y5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjBd
+fQ==
 -->
