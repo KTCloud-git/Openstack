@@ -343,7 +343,6 @@ Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Proj
 > #### User와 Group
 </br>
 
-User와 Group도 위에서 설명했지만,  
 User는 Openstack 서비스를 이용하는 사람 또는 서비스(Nova, Cinder 등)를 의미하며, User는 Domain 내에서 고유해야 합니다.
 </br>
 
@@ -364,7 +363,7 @@ Token은 Openstack API 및 리소스에 접근하기 위한 영숫자 텍스트 
 
 Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjA4MDg2OCwxODYzNjcwMDMyLDE4Mj
+eyJoaXN0b3J5IjpbMTU5OTE3OTAzNywxODYzNjcwMDMyLDE4Mj
 gwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3
 MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Nj
 g0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5
