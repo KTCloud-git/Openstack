@@ -322,13 +322,15 @@ Domain 관리자는 Domain에서 Project 및 User, Group을 만들고 Domain의 
 Project(Tenant)는 Identity v2까지 Tenant라는 용어로 불렸지만, 개념적 표현보다는 직관적인 표현으로 표기하기 위해 Identity v3부터 Project라는 용어로 변경되었습니다.
 </br>
 
-Project란 Openstack 서비스 리소스(Server, Image 등 - Project 및 Domain에 데이터 제공)를 
+Project란 Openstack 서비스 리소스(Server, Image 등 - Project 및 Domain에 데이터 제공)를 그룹화하고 격리(기본 소유권 단위)하기 위해 추상화되어 있으며, Project는 Domain에서 고유해야 합니다.  
+Project의 Domain을 지정하지 않으면 Default라는 기본 Domain에 추가됩니다.
+- Identity API v3.4 이후, 프로젝
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDc0MTgzOSwyMDcxNjUzMzMyLC0xNz
-U5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgw
-MCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5ND
-c1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgs
-NjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxNywxMzM1OT
-AwNjYwLDg1NDQ0NDY1MywtMTU4MDM4MjM4MCwtMTI1MjUwMzM3
-NV19
+eyJoaXN0b3J5IjpbLTE1OTgxNDkyNjYsMjA3MTY1MzMzMiwtMT
+c1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4
+MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOT
+Q3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4
+LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMzNT
+kwMDY2MCw4NTQ0NDQ2NTMsLTE1ODAzODIzODAsLTEyNTI1MDMz
+NzVdfQ==
 -->
