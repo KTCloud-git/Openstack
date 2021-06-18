@@ -336,6 +336,9 @@ Project는 User 또는 User Group을 Role 할당 개념으로 사용하여, Proj
 권한이 부여된 User는 특정 Role에 따라 접근 유형 및 기능이 결정됩니다.
 </br></br></br></br>
 
+위에서 나온 내용을 한 번더 복습해봅시다.
+</br>
+
 > #### User와 Group
 </br>
 
@@ -360,11 +363,11 @@ Token은 Openstack API 및 리소스에 접근하기 위한 영숫자 텍스트 
 
 Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzY0ODczMiwxODYzNjcwMDMyLDE4Mj
-gwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3
-MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Nj
-g0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5
-Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNz
-Y5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjBd
-fQ==
+eyJoaXN0b3J5IjpbOTQ3OTU4MTgxLDE4NjM2NzAwMzIsMTgyOD
+AwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMzMiwtMTc1OTU2Njcz
+MSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4MDAsMjU2OD
+QzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOTQ3NTQ0MDk2
+LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4LDY0MDI3Nj
+kxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTcsMTMzNTkwMDY2MF19
+
 -->
