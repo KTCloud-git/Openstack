@@ -324,9 +324,10 @@ Project(Tenant)는 Identity v2까지 Tenant라는 용어로 불렸지만, 개념
 
 Project란 Openstack 서비스 리소스(Server, Image 등 - Project 및 Domain에 데이터 제공)를 그룹화하고 격리(기본 소유권 단위)하기 위해 추상화되어 있으며, Project는 Domain에서 고유해야 합니다.  
 Project의 Domain을 지정하지 않으면 Default라는 기본 Domain에 추가됩니다.
-- Identity API v3.4 이후, Project 생성시
+- Identity API v3.4 이후, Project 생성시 Project 계층 구조(parent_id)를 생성할 수 있으며, 계층 구조의 모든 Project는 동일한 Domain에서 소유해야 합니다.
+- **Identity API v3.6 이후, Project는 Openstack 리소스에 대한 컨테이너 역할을 하는 것 외에도 Domain 역할을 할 수 있습니다.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDA0NTI5OCwyMDcxNjUzMzMyLC0xNz
+eyJoaXN0b3J5IjpbMTQzMzYzOTExMiwyMDcxNjUzMzMyLC0xNz
 U5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgw
 MCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQsLTE5ND
 c1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1MjQ2OTgs
