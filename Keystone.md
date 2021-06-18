@@ -294,13 +294,13 @@ Region은 다른 Region과 Identity(Keystone)만을 공유하는 전용 API End-
 (Domain, Project, User, Role 생성 : https://docs.openstack.org/mitaka/ko_KR/install-guide-rdo/keystone-users.html)
 <br>
 
-<img src="./img/Domain.png" width="750" height="450">
+<img src="./img/Domain.png" width="750" height="420">
 </br>
 
 Domain은 Openstack Identity 엔티티 관리에 대한 영역을 정의하는 Project, Group 및 User들의 집합을 나타냅니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTI5NjIwOCwtMTc1OTU2NjczMSwxMT
+eyJoaXN0b3J5IjpbMTQ0Mjc2NTM2MywtMTc1OTU2NjczMSwxMT
 Y1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcs
 NTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOTQ3NTQ0MDk2LDY3NT
 EyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4LDY0MDI3NjkxNiwy
