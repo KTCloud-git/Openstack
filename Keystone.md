@@ -418,8 +418,14 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 추가적으로, 프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.  
 따라서, 해당 Role에 따라 작업 수행이 가능합니다.
+</br>
+</br>
+
+**<h3>3. 도메인 범위 Token(Domain-Scoped Token)</h3>**
+
+Project는 Vo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjkyOTY0MywtMTM3NTI3NTIwLC03ND
+eyJoaXN0b3J5IjpbLTk4NDEyNTc4NSwtMTM3NTI3NTIwLC03ND
 k3MjMzOTUsMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC0zNDM4ODY3
 MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OTczMDA2MjUsMT
 g2MzY3MDAzMiwxODI4MDAyODA2LDI1MTcyNjUyOCwyMDcxNjUz
