@@ -394,7 +394,7 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 </br>
 </br>
 
-1.범위가 지정되지 않는 Token(Unscoped Tokens)  
+1.　범위가 지정되지 않는 Token(Unscoped Tokens)  
 Unscoped Token은 서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.  
 </br>
 
@@ -408,7 +408,7 @@ Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NzIzNTg5LDE5NDExODY5NDEsMTc2ND
+eyJoaXN0b3J5IjpbNzcyMzE0NTI1LDE5NDExODY5NDEsMTc2ND
 U2NTA1OCwtMzQzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0
 MywtNDk3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNT
 E3MjY1MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzEx
