@@ -377,9 +377,12 @@ Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효
 </br>
 
 > 권한 부여 범위
-<
+</br>
+
+Token은 Role 할당 정보를 전달하는데 사용됩니다.  
+User가 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 할당하는
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDE5NjgzNiwtNDk3MzAwNjI1LDE4Nj
+eyJoaXN0b3J5IjpbLTk0MTAwNjA3MSwtNDk3MzAwNjI1LDE4Nj
 M2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMz
 MiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5Nj
 cyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0
