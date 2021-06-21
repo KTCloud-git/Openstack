@@ -384,9 +384,9 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 이러한 범위를 **권한 부여 범위**라고 합니다.
 </br>
 
-여기서 Token은 단일 작업 범위(ex. Project, Domain 또는 ㅅ
+여기서 Token은 단일 작업 범위(ex. Project, Domain 또는 시스템)를 가지기 때문에, 만약 Project로 범위가 지정된 Token은 다른 Project에서 다른 작업을 수행하기 위해 재사용할 수 없습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ0Mzg0ODIsLTQ5NzMwMDYyNSwxOD
+eyJoaXN0b3J5IjpbLTE5Mjg3MjczMTQsLTQ5NzMwMDYyNSwxOD
 YzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMz
 MzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOT
 Y3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTcz
