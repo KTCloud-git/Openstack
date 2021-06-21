@@ -385,12 +385,15 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 </br>
 
 여기서 Token은 단일 작업 범위(ex. Project, Domain 또는 시스템)를 가지기 때문에, 만약 Project로 범위가 지정된 Token은 다른 Project에서 다른 작업을 수행하기 위해 재사용할 수 없습니다.
+</br>
+
+따라서, 각각의 권한 부여 범위는 특정 Openstack 서비스에서 특정 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg3MjczMTQsLTQ5NzMwMDYyNSwxOD
-YzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMz
-MzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOT
-Y3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTcz
-NCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0Mj
-UyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3
-XX0=
+eyJoaXN0b3J5IjpbMTcxNDI0OTMyMSwtNDk3MzAwNjI1LDE4Nj
+M2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMz
+MiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5Nj
+cyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0
+LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNT
+I0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTdd
+fQ==
 -->
