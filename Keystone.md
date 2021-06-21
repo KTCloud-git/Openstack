@@ -423,9 +423,9 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 **<h3>3. 도메인 범위 Token(Domain-Scoped Token)</h3>**
 
-Domain으
+Domain은
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjQ3NzE2NSwtMTM3NTI3NTIwLC03ND
+eyJoaXN0b3J5IjpbMTk3NDE4NjYwMSwtMTM3NTI3NTIwLC03ND
 k3MjMzOTUsMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC0zNDM4ODY3
 MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OTczMDA2MjUsMT
 g2MzY3MDAzMiwxODI4MDAyODA2LDI1MTcyNjUyOCwyMDcxNjUz
