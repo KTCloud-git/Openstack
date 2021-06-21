@@ -387,9 +387,14 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 여기서 Token은 단일 작업 범위(ex. Project, Domain 또는 시스템)를 가지기 때문에, 만약 Project로 범위가 지정된 Token은 다른 Project에서 다른 작업을 수행하기 위해 재사용할 수 없습니다.
 </br>
 
-따라서, 각각의 권한 부여 범위는 특정 Openstack 서비스에서 특정 
+따라서, 각각의 권한 부여 범위는 특정 Openstack 서비스에서 특정 유형의 작업에서만 유용하며 상호 호환되지 않습니다.
+</br>
+</br>
+
+1. 범위가 지정되지 않는 Token(Unscoped Tokens)
+Unscoped Token은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDI0OTMyMSwtNDk3MzAwNjI1LDE4Nj
+eyJoaXN0b3J5IjpbLTQ1NDIxOTQ5NiwtNDk3MzAwNjI1LDE4Nj
 M2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMz
 MiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5Nj
 cyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0
