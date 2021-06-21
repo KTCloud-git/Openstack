@@ -397,13 +397,13 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 1. 범위가 지정되지 않는 Token(Unscoped Tokens)  
 Unscoped Token은 서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.  
 </br>
-주요 사용 사례로는 
+주요 사용 사례로는 원
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OT
-czMDA2MjUsMTg2MzY3MDAzMiwxODI4MDAyODA2LDI1MTcyNjUy
-OCwyMDcxNjUzMzMyLC0xNzU5NTY2NzMxLDExNjUzMTEyNDAsMT
-UzNDY3OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwODMyMDAs
-LTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQyLDc1OD
-AwMjgxLC04NDI1MjQ2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDBd
-fQ==
+eyJoaXN0b3J5IjpbLTE5ODk1NTcyMjUsMTMzNDQxMTM0MywtND
+k3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1
+MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLD
+E1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAw
+LC0xNDMzOTExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NT
+gwMDI4MSwtODQyNTI0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAw
+XX0=
 -->
