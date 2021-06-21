@@ -372,13 +372,18 @@ Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효
 > #### Token
 </br>
 
-위에서 Keystone 동작 절차에 대해 설명할 때 Unsco
+위에서 Keystone 동작 절차에 대해 설명할 때 Unscoped Token, 범위가 지정된 Token 개념이 나왔었는데, 해당 부분에서 조금 더 자세히 다뤄볼까 합니다.
+</br>
+</br>
+
+> 권한 부여 범위
+<
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM5MzM5OTgsLTQ5NzMwMDYyNSwxOD
-YzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMz
-MzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOT
-Y3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTcz
-NCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0Mj
-UyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3
-XX0=
+eyJoaXN0b3J5IjpbLTk5NDE5NjgzNiwtNDk3MzAwNjI1LDE4Nj
+M2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMz
+MiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5Nj
+cyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0
+LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNT
+I0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAwLDE0NjY3NzE3MTdd
+fQ==
 -->
