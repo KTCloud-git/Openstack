@@ -404,12 +404,15 @@ Unscoped Token은 서비스 카탈로그, Role 또는 권한 부여 범위(ex. T
 Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야 합니다.
 - 인증 요청에 권한 부여 범위를 지정하지 않아야 합니다.
 (ex. --os-project-name 또는 같은 인수가 있는 명령 줄에서 --os-domain-id)
+- Identity에는 Role 할당 및 권한 부여와 관련된 "기본 프로젝트"가 없어야 합니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MDc2MjcwLDE3NjQ1NjUwNTgsLTM0Mz
-g4NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEzNDMsLTQ5NzMwMDYy
-NSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNz
-E2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5
-MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMz
-kxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODFd
-fQ==
+eyJoaXN0b3J5IjpbMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC0zND
+M4ODY3MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OTczMDA2
+MjUsMTg2MzY3MDAzMiwxODI4MDAyODA2LDI1MTcyNjUyOCwyMD
+cxNjUzMzMyLC0xNzU5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3
+OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0Mz
+M5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgx
+XX0=
 -->
