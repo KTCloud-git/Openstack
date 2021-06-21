@@ -393,6 +393,7 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 따라서, 각각의 권한 부여 범위는 특정 Openstack 서비스에서 특정 유형의 작업에서만 유용하며 상호 호환되지 않습니다.
 </br>
 </br>
+</br>
 
 **1. 범위가 지정되지 않는 Token(Unscoped Tokens)**  
 </br>
@@ -410,11 +411,11 @@ Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzA0Mjk0MiwxOTQxMTg2OTQxLDE3Nj
-Q1NjUwNTgsLTM0Mzg4NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEz
-NDMsLTQ5NzMwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMj
-UxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMx
-MTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1OD
-A4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEy
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDU1MTU2MzcsMTk0MTE4Njk0MSwxNz
+Y0NTY1MDU4LC0zNDM4ODY3MDAsLTk2MjA2MDUzMSwxMzM0NDEx
+MzQzLC00OTczMDA2MjUsMTg2MzY3MDAzMiwxODI4MDAyODA2LD
+I1MTcyNjUyOCwyMDcxNjUzMzMyLC0xNzU5NTY2NzMxLDExNjUz
+MTEyNDAsMTUzNDY3OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NT
+gwODMyMDAsLTE0MzM5MTE3MzQsLTE5NDc1NDQwOTYsNjc1MTIx
+MjQyXX0=
 -->
