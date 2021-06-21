@@ -396,7 +396,7 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 </br>
 
 **<h3>1. 범위가 지정되지 않는 Token(Unscoped Tokens)</h3>**
-
+</br>
 Unscoped Token은 서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.  
 </br>
 
@@ -407,14 +407,16 @@ Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야
 - 인증 요청에 권한 부여 범위를 지정하지 않아야 합니다.
 (ex. --os-project-name 또는 같은 인수가 있는 명령 줄에서 --os-domain-id)
 - Identity에는 Role 할당 및 권한 부여와 관련된 "기본 프로젝트"가 없어야 합니다.
+</br>
+</br>
 
-
+**<h3>2. 프로젝트 범위 Token(Project-Scoped Token)</h3>**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTcyMzM5NSwxOTQxMTg2OTQxLDE3Nj
-Q1NjUwNTgsLTM0Mzg4NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEz
-NDMsLTQ5NzMwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMj
-UxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMx
-MTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1OD
-A4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEy
-NDJdfQ==
+eyJoaXN0b3J5IjpbMTA2NTQ2NDg2NywtNzQ5NzIzMzk1LDE5ND
+ExODY5NDEsMTc2NDU2NTA1OCwtMzQzODg2NzAwLC05NjIwNjA1
+MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LDE4NjM2NzAwMzIsMT
+gyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMzMiwtMTc1OTU2
+NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4MDAsMj
+U2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOTQ3NTQ0
+MDk2XX0=
 -->
