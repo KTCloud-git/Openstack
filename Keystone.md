@@ -372,7 +372,7 @@ Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효
 > #### Token  
 </br>
 (Openstack docs, Keystone Token : https://docs.openstack.org/keystone/latest/admin/tokens-overview.html) 
-
+</br>
 </br>
 
 위에서 Keystone 동작 절차에 대해 설명할 때 Unscoped Token, 범위가 지정된 Token 개념이 나왔었는데, 해당 부분에서 조금 더 자세히 다뤄볼까 합니다.
@@ -397,11 +397,11 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 1. 범위가 지정되지 않는 Token(Unscoped Tokens)
 Unscoped Token은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzNjY2MDE5LDEzMzQ0MTEzNDMsLTQ5Nz
-MwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4
-LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNT
-M0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwt
-MTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MD
-AyODEsLTg0MjUyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMF19
-
+eyJoaXN0b3J5IjpbLTE5NDMwNTcxNjAsMTMzNDQxMTM0MywtND
+k3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1
+MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLD
+E1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAw
+LC0xNDMzOTExNzM0LC0xOTQ3NTQ0MDk2LDY3NTEyMTI0Miw3NT
+gwMDI4MSwtODQyNTI0Njk4LDY0MDI3NjkxNiwyMTA3NTQ2NjAw
+XX0=
 -->
