@@ -397,13 +397,14 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 1. 범위가 지정되지 않는 Token(Unscoped Tokens)  
 Unscoped Token은 서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.  
 </br>
-주요 사용 사례로는 원본 자격 증명을 반복적으로 제시하지 않고 나중에 Keystone에 Identity를 증명(범위가 지정된 Token 생성)하는 것이 있습니다.
+
+   주요 사용 사례로는 원본 자격 증명을 반복적으로 제시하지 않고 나중에 Keystone에 Identity를 증명(범위가 지정된 Token 생성)하는 것이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzg4NjcwMCwtOTYyMDYwNTMxLDEzMz
-Q0MTEzNDMsLTQ5NzMwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4
-MDYsMjUxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMT
-E2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3
-LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5Niw2Nz
-UxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNzY5MTZd
-fQ==
+eyJoaXN0b3J5IjpbMTc4NDkyMTkxOCwtMzQzODg2NzAwLC05Nj
+IwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LDE4NjM2NzAw
+MzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMzMiwtMT
+c1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4
+MDAsMjU2ODQzOTcsNTU4MDgzMjAwLC0xNDMzOTExNzM0LC0xOT
+Q3NTQ0MDk2LDY3NTEyMTI0Miw3NTgwMDI4MSwtODQyNTI0Njk4
+XX0=
 -->
