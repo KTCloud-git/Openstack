@@ -362,12 +362,23 @@ Token은 Openstack API 및 리소스에 접근하기 위한 영숫자 텍스트 
 </br>
 
 Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효합니다.
+</br>
+</br>
+</br>
+</br>
+
+## 참고
+
+> #### Token
+</br>
+
+위에서 Keystone 동작 절차에 대해 설명할 때 Unsco
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzMwMDYyNSwxODYzNjcwMDMyLDE4Mj
-gwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3
-MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Nj
-g0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTczNCwtMTk0NzU0NDA5
-Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0MjUyNDY5OCw2NDAyNz
-Y5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3LDEzMzU5MDA2NjBd
-fQ==
+eyJoaXN0b3J5IjpbLTE4MjM5MzM5OTgsLTQ5NzMwMDYyNSwxOD
+YzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMz
+MzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOT
+Y3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTcz
+NCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0Mj
+UyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3
+XX0=
 -->
