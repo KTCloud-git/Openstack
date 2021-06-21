@@ -416,13 +416,14 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 프로젝트 범위 Token은 클라우드의 특정 테넌시(Tenancy)에서 운영할 수 있는 권한을 나타내며, 컴퓨팅 리소스를 가동하거나 블록 스토리지를 분할하는 작업 등에 유용합니다.  
 </br>
-추가적으로, 프로젝트 범위 Token은 
+추가적으로, 프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.  
+따라서, 해당 Role에 따라 작업 수행이 가능합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NjUwNzc3LC0xMzc1Mjc1MjAsLTc0OT
-cyMzM5NSwxOTQxMTg2OTQxLDE3NjQ1NjUwNTgsLTM0Mzg4Njcw
-MCwtOTYyMDYwNTMxLDEzMzQ0MTEzNDMsLTQ5NzMwMDYyNSwxOD
-YzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMz
-MzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOT
-Y3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTcz
-NF19
+eyJoaXN0b3J5IjpbLTQ4MjkyOTY0MywtMTM3NTI3NTIwLC03ND
+k3MjMzOTUsMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC0zNDM4ODY3
+MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OTczMDA2MjUsMT
+g2MzY3MDAzMiwxODI4MDAyODA2LDI1MTcyNjUyOCwyMDcxNjUz
+MzMyLC0xNzU5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LD
+k2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3
+MzRdfQ==
 -->
