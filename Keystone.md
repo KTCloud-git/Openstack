@@ -380,13 +380,17 @@ Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효
 </br>
 
 Token은 Role 할당 정보를 전달하는데 사용됩니다.  
-User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지고 있는 것은 자주 있는 일입니다.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNzk2MzY4LC00OTczMDA2MjUsMTg2Mz
-Y3MDAzMiwxODI4MDAyODA2LDI1MTcyNjUyOCwyMDcxNjUzMzMy
-LC0xNzU5NTY2NzMxLDExNjUzMTEyNDAsMTUzNDY3OTE2LDk2Nz
-I4NTgwMCwyNTY4NDM5Nyw1NTgwODMyMDAsLTE0MzM5MTE3MzQs
-LTE5NDc1NDQwOTYsNjc1MTIxMjQyLDc1ODAwMjgxLC04NDI1Mj
-Q2OTgsNjQwMjc2OTE2LDIxMDc1NDY2MDAsMTQ2Njc3MTcxN119
+User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지고 있는 것은 자주 있는 일입니다.  
+이러한 범위를 **권한 부여 범위**라고 합니다.
+</br>
 
+여기서 Token은 단일 작업 범위(ex. Project, Domain 또는 ㅅ
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMTQ0Mzg0ODIsLTQ5NzMwMDYyNSwxOD
+YzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMz
+MzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOT
+Y3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIwMCwtMTQzMzkxMTcz
+NCwtMTk0NzU0NDA5Niw2NzUxMjEyNDIsNzU4MDAyODEsLTg0Mj
+UyNDY5OCw2NDAyNzY5MTYsMjEwNzU0NjYwMCwxNDY2NzcxNzE3
+XX0=
 -->
