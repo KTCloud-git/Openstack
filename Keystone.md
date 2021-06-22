@@ -443,10 +443,10 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 </br>
 </br>
+</br>
 
 > <h3>토큰 공급자(Token Providers)</h3>
 
-</br>
 </br>
 
 **<h4>UUID Token</h4>**
@@ -492,11 +492,11 @@ Identity 서비스는 PKI Token을 만들고 유효성을 검사하기 위해 Pu
 
 PKIZ Token은 기본적으로 PKI Token과 유사하나, PKIZ Token은 PKI의 크기 문제를 완화하기 위해 압축되어 제공된다는 점이 다릅니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTMzMTA1NCwtMTEyMjYzMDE1NiwyMT
-A3MTcwODAsMTU4MTE3MzMwNSwtNTg4MzY2MTk5LC01MTc3NTk1
-MzUsLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3NzAyNzUwMjAsNj
-AyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUyMCwtNzQ5NzIz
-Mzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMzQzODg2NzAwLC
-05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LDE4NjM2
-NzAwMzJdfQ==
+eyJoaXN0b3J5IjpbMTU1MzAyMTU3MiwxMzg1MzMxMDU0LC0xMT
+IyNjMwMTU2LDIxMDcxNzA4MCwxNTgxMTczMzA1LC01ODgzNjYx
+OTksLTUxNzc1OTUzNSwtNTgxNDI2ODMxLC03NjE0NzY5MiwtMT
+c3MDI3NTAyMCw2MDI1NDc3NTMsMTk3NDE4NjYwMSwtMTM3NTI3
+NTIwLC03NDk3MjMzOTUsMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC
+0zNDM4ODY3MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OTcz
+MDA2MjVdfQ==
 -->
