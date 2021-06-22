@@ -482,13 +482,21 @@ Identity 서비스만 Fernet Token을 암호화하고 해독하는데 사용되�
 **<h4>PKI 및 PKIZ Token</h4>**
 
 PKI Token은 인증 Context와 서비스 카탈로그를 포함하는 문서(서명이 되어 있음)라고 생각하면 됩니다.  
-Openstack 배포 크기에 따라 이러한 TO
+Openstack 배포 크기에 따라 Token이 매우 길어질 수 있습니다.
+
+</br>
+
+Identity 서비스는 PKI Token을 만들고 유효성을 검사하기 위해 Public Key, Private Key 쌍과 인증서를 사용합니다.
+
+</br>
+
+PKIZ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDE5NjAzOSwtMTEyMjYzMDE1NiwyMT
-A3MTcwODAsMTU4MTE3MzMwNSwtNTg4MzY2MTk5LC01MTc3NTk1
-MzUsLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3NzAyNzUwMjAsNj
-AyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUyMCwtNzQ5NzIz
-Mzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMzQzODg2NzAwLC
-05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LDE4NjM2
-NzAwMzJdfQ==
+eyJoaXN0b3J5IjpbMzAzNzEwMzAsLTExMjI2MzAxNTYsMjEwNz
+E3MDgwLDE1ODExNzMzMDUsLTU4ODM2NjE5OSwtNTE3NzU5NTM1
+LC01ODE0MjY4MzEsLTc2MTQ3NjkyLC0xNzcwMjc1MDIwLDYwMj
+U0Nzc1MywxOTc0MTg2NjAxLC0xMzc1Mjc1MjAsLTc0OTcyMzM5
+NSwxOTQxMTg2OTQxLDE3NjQ1NjUwNTgsLTM0Mzg4NjcwMCwtOT
+YyMDYwNTMxLDEzMzQ0MTEzNDMsLTQ5NzMwMDYyNSwxODYzNjcw
+MDMyXX0=
 -->
