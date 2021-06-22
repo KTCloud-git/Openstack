@@ -431,12 +431,18 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 즉, Domain에 대한 권한이 있는 User는 Domain 내에서 작업을 관리할 수 있습니다.  
 예를 들어, Domain 관리자는 해당 Domain 내에 새로운 User 및 Project를 생성할 수 있습니다.
+
+</br>
+
+추가적으로, 도메인 범위 Token은 서비스 카탈로그, Role 및 Domain에 대한 정보가 포함됩니다.  
+따라서, User와 Project를 관리해야하는 사람들은 일반적으로 도메인 수준 ㅇ
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTQ3NjkyLC0xNzcwMjc1MDIwLDYwMj
-U0Nzc1MywxOTc0MTg2NjAxLC0xMzc1Mjc1MjAsLTc0OTcyMzM5
-NSwxOTQxMTg2OTQxLDE3NjQ1NjUwNTgsLTM0Mzg4NjcwMCwtOT
-YyMDYwNTMxLDEzMzQ0MTEzNDMsLTQ5NzMwMDYyNSwxODYzNjcw
-MDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2NTMzMzIsLT
-E3NTk1NjY3MzEsMTE2NTMxMTI0MCwxNTM0Njc5MTYsOTY3Mjg1
-ODAwXX0=
+eyJoaXN0b3J5IjpbMTMzMzY0NjcxNiwtNzYxNDc2OTIsLTE3Nz
+AyNzUwMjAsNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUy
+MCwtNzQ5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMz
+QzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAw
+NjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMj
+A3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2
+NzkxNl19
 -->
