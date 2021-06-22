@@ -476,9 +476,15 @@ AES256암호화는 Token에 저장된 정보를 보호하는데 사용되며, �
 
 Identity 서비스만 Fernet Token을 암호화하고 해독하는데 사용되는 Key에 접근할 수 있어야하고, UUID Token과 마찬가지로 Fernet Token은 유효성을 검사하기 위해 Identity 서비스로 전달되어야 합니다.
 
+</br>
+</br>
+
+**<h4>PKI 및 PKIZ Token</h4>**
+
+PKI Token은 인증
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxNTY3MzA5LC0xMTIyNjMwMTU2LDIxMD
+eyJoaXN0b3J5IjpbNTgwNzUwODE4LC0xMTIyNjMwMTU2LDIxMD
 cxNzA4MCwxNTgxMTczMzA1LC01ODgzNjYxOTksLTUxNzc1OTUz
 NSwtNTgxNDI2ODMxLC03NjE0NzY5MiwtMTc3MDI3NTAyMCw2MD
 I1NDc3NTMsMTk3NDE4NjYwMSwtMTM3NTI3NTIwLC03NDk3MjMz
