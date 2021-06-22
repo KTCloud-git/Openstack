@@ -418,6 +418,7 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 추가적으로, 프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.  
 따라서, 해당 Role에 따라 작업 수행이 가능합니다.
+
 </br>
 </br>
 </br>
@@ -426,11 +427,11 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 Domain은
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY1OTYwODYsMTk3NDE4NjYwMSwtMT
-M3NTI3NTIwLC03NDk3MjMzOTUsMTk0MTE4Njk0MSwxNzY0NTY1
-MDU4LC0zNDM4ODY3MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC
-00OTczMDA2MjUsMTg2MzY3MDAzMiwxODI4MDAyODA2LDI1MTcy
-NjUyOCwyMDcxNjUzMzMyLC0xNzU5NTY2NzMxLDExNjUzMTEyND
-AsMTUzNDY3OTE2LDk2NzI4NTgwMCwyNTY4NDM5Nyw1NTgwODMy
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTcwMDUwOTY2MCwxOTc0MTg2NjAxLC0xMz
+c1Mjc1MjAsLTc0OTcyMzM5NSwxOTQxMTg2OTQxLDE3NjQ1NjUw
+NTgsLTM0Mzg4NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEzNDMsLT
+Q5NzMwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2
+NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MC
+wxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIw
+MF19
 -->
