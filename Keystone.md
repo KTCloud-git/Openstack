@@ -429,9 +429,10 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 </br>
 
-즉, Dom
+즉, Domain에 대한 권한이 있는 User는 Domain 내에서 작업을 관리할 수 있습니다.  
+예를 들어, Domain 관리자는 해당 Domain 내에 새로운 User 및 Project를 생성할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwMzY4NTI3LC0xNzcwMjc1MDIwLDYwMj
+eyJoaXN0b3J5IjpbLTc2MTQ3NjkyLC0xNzcwMjc1MDIwLDYwMj
 U0Nzc1MywxOTc0MTg2NjAxLC0xMzc1Mjc1MjAsLTc0OTcyMzM5
 NSwxOTQxMTg2OTQxLDE3NjQ1NjUwNTgsLTM0Mzg4NjcwMCwtOT
 YyMDYwNTMxLDEzMzQ0MTEzNDMsLTQ5NzMwMDYyNSwxODYzNjcw
