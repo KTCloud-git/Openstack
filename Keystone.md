@@ -470,15 +470,19 @@ Fernet Token 형식은 Openstack Kilo 릴리즈에서 도입되었습니다.
 
 </br>
 
-AES26
+AES256암호화는 Token에 저장된 정보를 보호하는데 사용되며, 무결성은 서명으로 확인됩니다.
+
+</br>
+
+Identity 서비스만 Fernet Token을 암호화하고 해독하는데 사용되는 Key에 접근할 수 있어야하고, UUID Token과 마찬가지로 Fernet Token은 유효성을 검사하기 위해 Identity 서비스로 전달되어야 합니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ3NzI1NywtMTEyMjYzMDE1NiwyMT
-A3MTcwODAsMTU4MTE3MzMwNSwtNTg4MzY2MTk5LC01MTc3NTk1
-MzUsLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3NzAyNzUwMjAsNj
-AyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUyMCwtNzQ5NzIz
-Mzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMzQzODg2NzAwLC
-05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LDE4NjM2
-NzAwMzJdfQ==
+eyJoaXN0b3J5IjpbNTYxNTY3MzA5LC0xMTIyNjMwMTU2LDIxMD
+cxNzA4MCwxNTgxMTczMzA1LC01ODgzNjYxOTksLTUxNzc1OTUz
+NSwtNTgxNDI2ODMxLC03NjE0NzY5MiwtMTc3MDI3NTAyMCw2MD
+I1NDc3NTMsMTk3NDE4NjYwMSwtMTM3NTI3NTIwLC03NDk3MjMz
+OTUsMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC0zNDM4ODY3MDAsLT
+k2MjA2MDUzMSwxMzM0NDExMzQzLC00OTczMDA2MjUsMTg2MzY3
+MDAzMl19
 -->
