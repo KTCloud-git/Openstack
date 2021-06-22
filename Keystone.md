@@ -369,7 +369,7 @@ Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효
 
 ## 참고
 
-> #### Token  
+> <h3> Token </h3> 
 </br>
 (Openstack docs, Keystone Token : https://docs.openstack.org/keystone/latest/admin/tokens-overview.html)  
 
@@ -396,7 +396,7 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 </br>
 </br>
 
-**<h3>1. 범위가 지정되지 않는 Token(Unscoped Tokens)</h3>**  
+**<h4>1. 범위가 지정되지 않는 Token(Unscoped Tokens)</h4>**  
 
 Unscoped Token은 **서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.**  
 </br>
@@ -412,7 +412,7 @@ Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야
 </br>
 </br>
 
-**<h3>2. 프로젝트 범위 Token(Project-Scoped Token)</h3>**
+**<h4>2. 프로젝트 범위 Token(Project-Scoped Token)</h4>**
 
 Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생각하시면 됩니다.  
 </br>
@@ -448,7 +448,7 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTY1NDkyMSwyMTA3MTcwODAsMTU4MT
+eyJoaXN0b3J5IjpbMjAyMTMyMzMyNCwyMTA3MTcwODAsMTU4MT
 E3MzMwNSwtNTg4MzY2MTk5LC01MTc3NTk1MzUsLTU4MTQyNjgz
 MSwtNzYxNDc2OTIsLTE3NzAyNzUwMjAsNjAyNTQ3NzUzLDE5Nz
 QxODY2MDEsLTEzNzUyNzUyMCwtNzQ5NzIzMzk1LDE5NDExODY5
