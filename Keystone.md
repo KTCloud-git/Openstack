@@ -407,6 +407,7 @@ Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야
 - 인증 요청에 권한 부여 범위를 지정하지 않아야 합니다.
 (ex. --os-project-name 또는 같은 인수가 있는 명령 줄에서 --os-domain-id)
 - Identity에는 Role 할당 및 권한 부여와 관련된 "기본 프로젝트"가 없어야 합니다.
+
 </br>
 </br>
 
@@ -421,17 +422,16 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 </br>
 </br>
-</br>
 
 **<h3>3. 도메인 범위 Token(Domain-Scoped Token)</h3>**
 
 Domain은
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDUwOTY2MCwxOTc0MTg2NjAxLC0xMz
-c1Mjc1MjAsLTc0OTcyMzM5NSwxOTQxMTg2OTQxLDE3NjQ1NjUw
-NTgsLTM0Mzg4NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEzNDMsLT
-Q5NzMwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2
-NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMxMTI0MC
-wxNTM0Njc5MTYsOTY3Mjg1ODAwLDI1Njg0Mzk3LDU1ODA4MzIw
-MF19
+eyJoaXN0b3J5IjpbNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNz
+UyNzUyMCwtNzQ5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1
+OCwtMzQzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtND
+k3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1
+MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLD
+E1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAw
+XX0=
 -->
