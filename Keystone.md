@@ -398,7 +398,7 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 
 **<h3>1. 범위가 지정되지 않는 Token(Unscoped Tokens)</h3>**  
 
-Unscoped Token은 서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.  
+Unscoped Token은 **서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.**  
 </br>
 
       주요 사용 사례로는 원본 자격 증명을 반복적으로 제시하지 않고 나중에 Keystone에 Identity를 증명(범위가 지정된 Token 생성)하는 것이 있습니다.
@@ -418,7 +418,7 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 프로젝트 범위 Token은 클라우드의 특정 테넌시(Tenancy)에서 운영할 수 있는 권한을 나타내며, 컴퓨팅 리소스를 가동하거나 블록 스토리지를 분할하는 작업 등에 유용합니다.  
 </br>
-추가적으로, 프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.  
+추가적으로, **프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.**  
 따라서, **User는 리소스를 사용하기 위해 Project에 대한 Role 할당이 필요합니다.**
 
 </br>
@@ -435,19 +435,20 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 </br>
 
-추가적으로, 도메인 범위 Token은 서비스 카탈로그, Role 및 Domain에 대한 정보가 포함됩니다.  
+추가적으로, **도메인 범위 Token은 서비스 카탈로그, Role 및 Domain에 대한 정보가 포함됩니다.**  
 따라서, **User와 Project를 관리해야하는 사람들은 일반적으로 도메인에 대한 권한이 필요합니다.**
 
 </br>
 </br>
 
-
+> T
+</br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTE3MzMwNSwtNTg4MzY2MTk5LC01MT
-c3NTk1MzUsLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3NzAyNzUw
-MjAsNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUyMCwtNz
-Q5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMzQzODg2
-NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LD
-E4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1
-MzMzMl19
+eyJoaXN0b3J5IjpbLTEyNzM3NjAzODIsMTU4MTE3MzMwNSwtNT
+g4MzY2MTk5LC01MTc3NTk1MzUsLTU4MTQyNjgzMSwtNzYxNDc2
+OTIsLTE3NzAyNzUwMjAsNjAyNTQ3NzUzLDE5NzQxODY2MDEsLT
+EzNzUyNzUyMCwtNzQ5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2
+NTA1OCwtMzQzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0My
+wtNDk3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3
+MjY1MjhdfQ==
 -->
