@@ -425,13 +425,17 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 **<h3>3. 도메인 범위 Token(Domain-Scoped Token)</h3>**
 
-Domain은
+도메인 범위 Token은 Domain의 컨텐츠 또는 Domain 자체에서 작동할 수 있는 권한을 나타냅니다.
+
+</br>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNz
-UyNzUyMCwtNzQ5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1
-OCwtMzQzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtND
-k3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1
-MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLD
-E1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQzOTcsNTU4MDgzMjAw
-XX0=
+eyJoaXN0b3J5IjpbLTE3NzAyNzUwMjAsNjAyNTQ3NzUzLDE5Nz
+QxODY2MDEsLTEzNzUyNzUyMCwtNzQ5NzIzMzk1LDE5NDExODY5
+NDEsMTc2NDU2NTA1OCwtMzQzODg2NzAwLC05NjIwNjA1MzEsMT
+MzNDQxMTM0MywtNDk3MzAwNjI1LDE4NjM2NzAwMzIsMTgyODAw
+MjgwNiwyNTE3MjY1MjgsMjA3MTY1MzMzMiwtMTc1OTU2NjczMS
+wxMTY1MzExMjQwLDE1MzQ2NzkxNiw5NjcyODU4MDAsMjU2ODQz
+OTddfQ==
 -->
