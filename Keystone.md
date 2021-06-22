@@ -450,11 +450,26 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 **<h4>UUID Token</h4>**
 
-UUID는 
+UUID는 현재 기본 Token 제공자이며 32바이트의 길이로 이루어져 있습니다.
+
+</br>
+
+Client는 Identity 서비스에 UUID Token을 전달해야 유효성을 확인할 수 있습니다.
+
+</br>
+</br>
+
+**<h4>Fernet Token</h4>**
+
+UUID는 현재 기본 Token 제공자이며 32바이트의 길이로 이루어져 있습니다.
+
+</br>
+
+Client는 Identity 서비스에 UUID Token을 전달해야 유효성을 확인할 수 있습니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAzMTk3MTYsLTExMjI2MzAxNTYsMj
+eyJoaXN0b3J5IjpbLTEyNzY1ODQzNzksLTExMjI2MzAxNTYsMj
 EwNzE3MDgwLDE1ODExNzMzMDUsLTU4ODM2NjE5OSwtNTE3NzU5
 NTM1LC01ODE0MjY4MzEsLTc2MTQ3NjkyLC0xNzcwMjc1MDIwLD
 YwMjU0Nzc1MywxOTc0MTg2NjAxLC0xMzc1Mjc1MjAsLTc0OTcy
