@@ -435,10 +435,14 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 
 추가적으로, 도메인 범위 Token은 서비스 카탈로그, Role 및 Domain에 대한 정보가 포함됩니다.  
-따라서, User와 Project를 관리해야하는 사람들은 일반적으로 도메인 수준 ㅇ
+따라서, User와 Project를 관리해야하는 사람들은 일반적으로 도메인에 대한 권한이 필요합니다.
 
+</br>
+</br>
+
+**<h3>4. 시스템 범위 Token(Domain-Scoped Token)</h3>**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzY0NjcxNiwtNzYxNDc2OTIsLTE3Nz
+eyJoaXN0b3J5IjpbLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3Nz
 AyNzUwMjAsNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUy
 MCwtNzQ5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMz
 QzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAw
