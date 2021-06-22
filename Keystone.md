@@ -372,7 +372,7 @@ Token은 언제든지 취소할 수 있으며, 한정된 기간 동안만 유효
 > #### Token  
 </br>
 (Openstack docs, Keystone Token : https://docs.openstack.org/keystone/latest/admin/tokens-overview.html)  
-(https://docs.openstack.org/newton/admin-guide/identity-tokens.html)
+
 </br>
 </br>
 
@@ -443,11 +443,11 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgyNTY3NDYsLTU4ODM2NjE5OSwtNT
-E3NzU5NTM1LC01ODE0MjY4MzEsLTc2MTQ3NjkyLC0xNzcwMjc1
-MDIwLDYwMjU0Nzc1MywxOTc0MTg2NjAxLC0xMzc1Mjc1MjAsLT
-c0OTcyMzM5NSwxOTQxMTg2OTQxLDE3NjQ1NjUwNTgsLTM0Mzg4
-NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEzNDMsLTQ5NzMwMDYyNS
-wxODYzNjcwMDMyLDE4MjgwMDI4MDYsMjUxNzI2NTI4LDIwNzE2
-NTMzMzJdfQ==
+eyJoaXN0b3J5IjpbMTU4MTE3MzMwNSwtNTg4MzY2MTk5LC01MT
+c3NTk1MzUsLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3NzAyNzUw
+MjAsNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUyMCwtNz
+Q5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMzQzODg2
+NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAwNjI1LD
+E4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMjA3MTY1
+MzMzMl19
 -->
