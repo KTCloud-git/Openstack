@@ -440,13 +440,13 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 </br>
 </br>
 
-**<h3>4. 시스템 범위 Token(Domain-Scoped Token)</h3>**
+**<h3>4. 시스템 범위 Token(ㄴ-Scoped Token)</h3>**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTQyNjgzMSwtNzYxNDc2OTIsLTE3Nz
-AyNzUwMjAsNjAyNTQ3NzUzLDE5NzQxODY2MDEsLTEzNzUyNzUy
-MCwtNzQ5NzIzMzk1LDE5NDExODY5NDEsMTc2NDU2NTA1OCwtMz
-QzODg2NzAwLC05NjIwNjA1MzEsMTMzNDQxMTM0MywtNDk3MzAw
-NjI1LDE4NjM2NzAwMzIsMTgyODAwMjgwNiwyNTE3MjY1MjgsMj
-A3MTY1MzMzMiwtMTc1OTU2NjczMSwxMTY1MzExMjQwLDE1MzQ2
-NzkxNl19
+eyJoaXN0b3J5IjpbMjYzMzU3MjgxLC01ODE0MjY4MzEsLTc2MT
+Q3NjkyLC0xNzcwMjc1MDIwLDYwMjU0Nzc1MywxOTc0MTg2NjAx
+LC0xMzc1Mjc1MjAsLTc0OTcyMzM5NSwxOTQxMTg2OTQxLDE3Nj
+Q1NjUwNTgsLTM0Mzg4NjcwMCwtOTYyMDYwNTMxLDEzMzQ0MTEz
+NDMsLTQ5NzMwMDYyNSwxODYzNjcwMDMyLDE4MjgwMDI4MDYsMj
+UxNzI2NTI4LDIwNzE2NTMzMzIsLTE3NTk1NjY3MzEsMTE2NTMx
+MTI0MF19
 -->
