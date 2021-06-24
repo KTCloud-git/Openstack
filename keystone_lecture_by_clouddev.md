@@ -15,7 +15,7 @@
 
 Keystone은 Openstack의 인증을 담당하고 있습니다.  
 
-Openstack의 백엔드에서 **RBAD(Role Based Access Control)**을 통해 인증 서비스로 사용됩니다.([인증 컨셉](https://docs.openstack.org/keystone/latest/admin/identity-concepts.html))
+Keystone은 Openstack의 RBAC(Role Based Access Control) 구조로 구현됩니다.([인증 컨셉](https://docs.openstack.org/keystone/latest/admin/identity-concepts.html))
 
 Keystone이 없으면 그 어떤 서비스도 이용할 수 없습니다.
 
