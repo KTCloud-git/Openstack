@@ -1,8 +1,27 @@
 # Purpose
 
-* Hardware를 Code로 관리하여 프로젝트 단위별로 H/W를 베포하기 위해 만들어 졌음 
+* Hardware를 Code로 관리하여 프로젝트 단위별로 H/W를 베포하기 위해 만들어 졌음.
 
 * 최소 인원으로 관리할 수 있도록 함.
+
+## 인원별 역할
+
+- Service Administrator : 운영을 담당하는 것.
+
+- Automation Engineer : infra architect가 만들어 놓은 것을 구현하는 역할을 하는 것. / 관련 : "openstack kolla"
+
+
+# 설치 방법
+
+* 우선 BMC를 먼저 만들어 power를 만들고, Libvirt로 compute, controller를 만든다. 그리고, controller와 compute를 power와 MAC으로 연결하고, under cloud(tipleO)를 만들어 연결한다.
+
+- powernode : https://docs.openstack.org/project-deploy-guide/tripleo-docs/latest/environments/virtualbmc.html
+
+- triple-O : https://docs.openstack.org/tripleo-quickstart/latest/
+
+- Network 구조 : https://docs.openstack.org/security-guide/networking/architecture.html 
+
+- 자체 구축 : External, Internal, Storage + backup, Mgmt, InspectNet
 
 # Character
 
@@ -29,15 +48,24 @@ H/W
 
 # Setting
 
-* Over Cloud : Rack 위의 서버들로, Open stack 서비스의 모음을 의미함. Undercloud의 관리 서버가 관리하는 서버의 그룹 의미. 
+* Over Cloud(Overcloud) : Rack 위의 서버들로, Open stack 서비스의 모음을 의미함. Undercloud의 관리 서버가 관리하는 서버의 그룹 의미. 
 
-* Under Cloud : Over Cloud를 구성하도록 돕는 서비스들의 모음.(Utility, kolla, power로 구성되어 있음.)
+* Under Cloud(Undercloud) : Over Cloud를 구성하도록 돕는 서비스들의 모음.(Utility, kolla, power로 구성되어 있음.)
 
 # Architecture
 
 TS(Trouble Shooting)이 어렵고, PS(Performance Setting)이 어렵다.
 
+여러 서비스들은 docker 기반으로 운영이 되고 잇음. 이런 서비스들은 controller0의 /system/에 container를 올림으로서 동작.
+
+podman ---> nova-compute[kvm] ---> root(priv) ---> virtualization -> container
+
+Podman ---> container ---> runc ---> conmon -> service
+
+podman 실행하더라도 runtime은 계속 수행을 함. kernel에만 문제가 있으면, podman이 실행한 서비스는 문제가 없음.
+
 ```
+
 Openstack SW Hierarchy  
  |- (Level 5)
  |-- OSP
@@ -152,7 +180,18 @@ Role : 프로젝트의 모임
 
 * libvirt : 여러 hypervisor를 연결함. (QEMU, KVM, VMware에 연결), Docker 나 LXC(Linux container, Hardware를 직접 접근)
 
-* LXC : Linux에서만든 Container이나 VM에 가깝게 동작기 때문에 커널을 그대로 가져와서 재시작이 이루어진다. OSC-I, Podman, Docker는 재시작이 이루어지지 않는다. 
+* LXC : Linux에서만든 Container이나 VM에 가깝게 동작한다.
+  커널을 그대로 가져와서 재시작이 이루어진다. Podman과 OSC-IS는 재시작이 안 이루어집니다.
+  
+  Podman -> RedHat에서 만든 Docker 관리 서비스를 의미합니다. docker standalone 서비스를 의미합니다. 실제로 RUN-C를 돌리고 정지되더라도 Container 서비스에는 문제가 없고, API 서비스 처리만을 해줌. 계층별로 구성이 달라지면 이전과 다른 행동을 보이고 있음.
+  OSC-I -> Podman에서 갈라져 나온 Docker 서비스를 의미합니다.
+  docker -> runc, runtime과 link되어 있음. 그래서 debug를 할때 low level까지 알 필요가 없음.
+
+* RUNC : Runtime환경을 구성하는 역할을 하고, Runtime에서는 컨테이너 환경을 구성하거나, namespace, cgroup, 보안을 구성하고 있음.
+
+* cgroup : 프로세스 및 cpu, mem 의 용량을 제한함.
+
+* SELINUX : SECCOMP로 특정 Container에 접속할 수 없는 현상이 발생함. syscall을 막는 역할을 함.
 
 # Site
 
