@@ -5,7 +5,8 @@ Glance
 # Image
 
 Glance 
-: Image를 관리하는 서비스로 RADOS Block Device를 사용하여 데이터를 저장함. API 및 Gateway 역할을 수행함. 
+: Image를 관리하는 서비스로 RADOS Block Device를 사용하여 데이터를 저장함. API 및 Gateway 역할을 수행함.
+: virt-builder 등을 통해서 이미지를 생성하는 부분에 해당함. 
 
 QCOW2
 : Image 형식 이름을 의미하여 Ceph가 사용하려면, Ceph를 이용한다. 단, Ceph를 이용하지 않을 경우 가상 Disk를 만든다. 
