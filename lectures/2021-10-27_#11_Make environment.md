@@ -81,5 +81,12 @@ multiple management network : 서비스 구성을 위한 network.
 neutron external network : 외부로의 인터페이스를 위한 network
 '''
 
+* 각 compute 서버에서 python을 재설치 해야함. 
+'''
+apt install --reinstall python3-pkg-resources python3-setuptools
+apt install python-setuptools 
+'''
+
 * 서버 초기화
 kolla-ansible -i ./multinode bootstrap-servers 
+
