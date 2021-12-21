@@ -131,7 +131,7 @@ key stone 서비스 자체에 대한 관리는 (링크)[https://docs.openstack.o
 
 <br/><br/>
 
-> ### Keystone은 어떻게 작동할까요
+### Keystone은 어떻게 작동할까요
 
 Keystone이 어떻게 작동되는지 알아 보겠습니다. 
 
@@ -224,7 +224,7 @@ api를 통한 정확한 절차 확인은 아직 내용 확인이 안되어, 향�
 
 <br/>
 
-> ### Keystone의 구성요소 ([참고](https://docs.openstack.org/keystone/latest/getting-started/architecture.html))
+## Keystone의 구성요소 ([참고](https://docs.openstack.org/keystone/latest/getting-started/architecture.html))
 
 <br/>
 
