@@ -218,10 +218,12 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 }
 ```
 
-정답, 유효합니다. 왜냐하면 Domain에서 user name은 unique하기 때문입니다.  
+정답, 유효합니다. 왜냐하면 Domain에서 user name은 unique하기 때문입니다. 
 
-> ### 참고 : Keystone 동작 절차 ([참고](https://galid1.tistory.com/207))
-<br>
+<br/>
+
+> 참고 : Keystone 동작 절차 ([참고](https://galid1.tistory.com/207))
+<br/>
 
 1. **User가 Keystone으로부터 범위 비지정(Unscoped) Token 획득**
 
