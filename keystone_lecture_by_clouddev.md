@@ -13,7 +13,9 @@
 
 Keystone은 Openstack's identify API 서비스를 개조해서 Identity, Resource, Assignment, Token, Catalog 서비스를 제공합니다.
 
-기본적으로 Openstack's identify API 서비스는 authentication token을 생성하는 역할을 합니다.
+Openstack's identify API 서비스는 authentication token을 생성하는 역할을 합니다. 
+
+구체적으로 아래 서비스로 구성되어 있습니다.
 
 Identify 서비스는 고객 계정 정보(소속, 이름, 아이디, 비밀번호)를 관리합니다.
 
@@ -25,12 +27,9 @@ Token 서비스는 토큰이 유효한지 확인하고, 유효하도록 처리�
 
 Catalog 서비스 각서비스의 end point를 관리하는 역할을 합니다.
 
+<br/>
 
-예를 한번 보겠습니다. 
-
-아래는 각 서비스를 호출하는 소스코드의 예제를 보여줍니다. 
-
-결국 REST로 End point를 호출하는 것이 다입니다. 
+아래는 각 서비스를 호출하는 소스코드의 예제입니다. REST 형식으로 End point를 호출하는 것이 다입니다. 
 
 ```python
 class UserResource(ks_flask.ResourceBase):
@@ -60,6 +59,8 @@ class UserChangePasswordResource(ks_flask.ResourceBase):
 
 위와 같이 각 서비스를 end point로 하여 요청을 분기처리하고, 해당 과업들을 수행합니다.
 
+<br/>
+
 ## Operation for cloud operator
 
 지난 2회차 수업은 운영에 대한 업무를 배웠습니다. 
@@ -79,7 +80,6 @@ Key stone 서비스 운영자로 해야하는 일이 있다면 "적합한 사용
 |1|reader| 조회 |
 |2|member| 조회, 생성 |
 |3|admin| 조회, 생성, 삭제 |
-
 
 아래는 system scope에 대한 role와 actor 정보를 보여주는 명령어입니다.
 
@@ -127,6 +127,8 @@ $ openstack role assignment list --names --system all --role member --role reade
 
 부여된 role과 scope가 다르게 됩니다.
 
+key stone 서비스 자체에 대한 관리는 (링크)[https://docs.openstack.org/keystone/latest/cli/index.html]를 참조하세요.
+
 <br/><br/>
 
 > ### Keystone은 어떻게 작동할까요
@@ -155,7 +157,7 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 
 </br>
 
-아래와 같이 데이터가 전달되었다고 했을 때, 
+인증의 실체 아래와 같이 데이터가 전달되었다고 했을 때, 
 
 해당 사용자가 프로젝트에 적합한 사용자임을 인증받게 되어, token을 발급받게 됩니다.
 
@@ -217,6 +219,8 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 ```
 
 정답, 유효합니다. 왜냐하면 Domain에서 user name은 unique하기 때문입니다.  
+
+api를 통한 정확한 절차 확인은 아직 내용 확인이 안되어, 향후 교육을 다녀오면 보완하겠습니다.
 
 <br/>
 
