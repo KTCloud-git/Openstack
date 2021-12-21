@@ -220,79 +220,7 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 
 정답, 유효합니다. 왜냐하면 Domain에서 user name은 unique하기 때문입니다.  
 
-api를 통한 정확한 절차 확인은 아직 내용 확인이 안되어, 향후 교육을 다녀오면 보완하겠습니다.
-
-<br/>
-
-## Keystone의 구성요소 ([참고](https://docs.openstack.org/keystone/latest/getting-started/architecture.html))
-
-<br/>
-
-+ Authentication
-   + 사용자를 인증하는 절차로 특정 값을 통해 Keystone이 이를 검증
-   + ID, PW가 사용되며 Keystone은 인증 완료 시 **인증(임시) 토큰**을 발행
-</br></br>
-
-+ End-Point
-  + 서비스를 이용하기 위한 네트워크 주소로 URL(IP, PortNum)을 사용
-  + End-Point 유형
-    - admin : 운영자들에게만 접근이 허용
-    - internal : 내부 서비스간에만 접근이 허용
-    - public : 인터넷에서 인식이 가능하며, 사용자들이 인터넷을 통해 자신의 클라우드 환경을 제어할 때 사용
-</br></br>
-
-+ Role
-   + 사용자가 어떤 동작을 수행하도록 허용하는 집합
-   + 사용자가 가지는 역할은 사용자에게 발행된 **인증 Token**에서 찾을 수 있음
-</br></br>
-
-+ Tenant
-   + 자원에 대한 User(Role)의 집합
-</br></br>
-
-+ Token
-   + RBAD의 신분을 증명하기 위해 사용되는 데이터
-   + 어떤 자원에 접근이 가능한지 지정되어 있음. (Authorization)
-</br></br>
-
-+ User
-   + 사람 또는 Openstack 서비스를 이용하는 서비스(nova, neutron, cinder 등)를 의미
-   + User는 특정 프로젝트에 할당할 수 있으며, 중복을 허용하지 않음
-</br></br>
-
-> ### Keystone은 어떻게 사용할 수 있을까요?
-<br/>
-
-<div style="text-align:center;">
-<img src="./img/Keystone location.png" width="800" height="400"> 
-</div>
-</br>
-
-모든 User는 Keystone으로부터 확인받고 서비스를 제공할 수 있습니다.
-
-그렇다면, Keystone이 어떻게 사용자와 서비스 인증 부분을 관리하는지 알아보겠습니다.
-</br></br>
-
-<div style="text-align:center;">
-<img src="./img/Keystone in.png" width="600" height="230">
-</div>
-</br>
-
-위의 내용을 바탕으로 다음과 같이 정리할 수 있습니다.
-
-- Tenant에는 User가 포함
-
-- User는 Role을 가지고 있음
-
-- Token을 발행할 때 Tenant와 User 정보가 필요
-
-- 서비스가 있고, 각각의 서비스는 End-Point URL을 가짐
-
-- User는 End-Point URL을 통해 서비스에 접근
-</br>
-</br>
-
-> ### Keystone 동작 절차 ([참고](https://galid1.tistory.com/207))
+> ### 참고 : Keystone 동작 절차 ([참고](https://galid1.tistory.com/207))
 <br>
 
 1. **User가 Keystone으로부터 범위 비지정(Unscoped) Token 획득**
@@ -397,6 +325,42 @@ api를 통한 정확한 절차 확인은 아직 내용 확인이 안되어, 향�
 아래서 부터는 NR이 작업할 예정.
 
 ---
+## Keystone의 구성요소 ([참고](https://docs.openstack.org/keystone/latest/getting-started/architecture.html))
+
+<br/>
+
++ Authentication
+   + 사용자를 인증하는 절차로 특정 값을 통해 Keystone이 이를 검증
+   + ID, PW가 사용되며 Keystone은 인증 완료 시 **인증(임시) 토큰**을 발행
+</br></br>
+
++ End-Point
+  + 서비스를 이용하기 위한 네트워크 주소로 URL(IP, PortNum)을 사용
+  + End-Point 유형
+    - admin : 운영자들에게만 접근이 허용
+    - internal : 내부 서비스간에만 접근이 허용
+    - public : 인터넷에서 인식이 가능하며, 사용자들이 인터넷을 통해 자신의 클라우드 환경을 제어할 때 사용
+</br></br>
+
++ Role
+   + 사용자가 어떤 동작을 수행하도록 허용하는 집합
+   + 사용자가 가지는 역할은 사용자에게 발행된 **인증 Token**에서 찾을 수 있음
+</br></br>
+
++ Tenant
+   + 자원에 대한 User(Role)의 집합
+</br></br>
+
++ Token
+   + RBAD의 신분을 증명하기 위해 사용되는 데이터
+   + 어떤 자원에 접근이 가능한지 지정되어 있음. (Authorization)
+</br></br>
+
++ User
+   + 사람 또는 Openstack 서비스를 이용하는 서비스(nova, neutron, cinder 등)를 의미
+   + User는 특정 프로젝트에 할당할 수 있으며, 중복을 허용하지 않음
+</br></br>
+
 ## Region / Domain / Project의 개념
 
 > ### Region ([참고](https://docs.openstack.org/python-openstackclient/rocky/cli/command-objects/region.html))
