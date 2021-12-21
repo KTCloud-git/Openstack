@@ -239,6 +239,9 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 </br>
 
 ---
+아래서 부터는 NR이 작업할 예정.
+
+---
 ## Region / Domain / Project의 개념
 
 > ### Region ([참고](https://docs.openstack.org/python-openstackclient/rocky/cli/command-objects/region.html))
