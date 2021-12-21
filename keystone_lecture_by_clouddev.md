@@ -11,39 +11,125 @@
 
 ## Keystone은 무엇인가?
 
-<br/>
+Keystone은 Openstack's identify API 서비스를 개조해서 Identity, Resource, Assignment, Token, Catalog 서비스를 제공합니다.
 
-Keystone은 Openstack의 인증을 담당하고 있습니다.  
+기본적으로 Openstack's identify API 서비스는 authentication token을 생성하는 역할을 합니다.
 
-Keystone은 Openstack의 RBAC(Role Based Access Control) 구조로 구현됩니다.([인증 컨셉](https://docs.openstack.org/keystone/latest/admin/identity-concepts.html))
+Identify 서비스는 고객 계정 정보(소속, 이름, 아이디, 비밀번호)를 관리합니다.
 
-Keystone이 없으면 그 어떤 서비스도 이용할 수 없습니다.
+Resource 서비스는 Project, domain의 정보를 관리합니다.
 
-<br/>
+Assignment 서비스는 Role 정보와, Resource, Identify, Role 매핑정보를 관리합니다. 
 
-따라서, Openstack이 집이라면 Keystone은 **현관문 키** 기능을 합니다.  
+Token 서비스는 토큰이 유효한지 확인하고, 유효하도록 처리해주는 역할을 합니다. 
 
-Openstack이라는 집 안에는 **Compute, Image, Network, Storage**와 같은 자원들이 있습니다.
+Catalog 서비스 각서비스의 end point를 관리하는 역할을 합니다.
 
-<div style="text-align:center">
 
-  <img src="./img/house2.png" width="400" height="400">
+예를 한번 보겠습니다. 
 
-</div>
+아래는 각 서비스를 호출하는 소스코드의 예제를 보여줍니다. 
 
-<br/>
+결국 REST로 End point를 호출하는 것이 다입니다. 
 
-당연히 자원들은 집에 들어갈 수 있는 사람만 사용할 수 있습니다.  
+```python
+class UserResource(ks_flask.ResourceBase):
+    collection_key = 'users'
+    member_key = 'user'
+    get_member_from_driver = PROVIDERS.deferred_provider_lookup(
+        api='identity_api', method='get_user')
 
-**Openstack**이 제공하는 서비스들도 동일하게 아무나 사용할 수 없습니다.
+    def get(self, user_id=None):
+        """Get a user resource or list users.
+        GET/HEAD /v3/users
+        GET/HEAD /v3/users/{user_id}
+        """
+        ...
 
-즉, **현관문 열쇠** 역할을 하는 **Keystone**은 **인증**된 사용자가 **Openstack** 자원을 사용할 수 있도록 관리합니다.
+    def post(self):
+        """Create a user.
+        POST /v3/users
+        """
+        ...
+
+class UserChangePasswordResource(ks_flask.ResourceBase):
+    @ks_flask.unenforced_api
+     def post(self, user_id):
+         ...
+```
+
+위와 같이 각 서비스를 end point로 하여 요청을 분기처리하고, 해당 과업들을 수행합니다.
+
+## Operation for cloud operator
+
+지난 2회차 수업은 운영에 대한 업무를 배웠습니다. 
+
+Key stone 서비스 운영자로 해야하는 일이 있다면 "적합한 사용자에게" "적합한 token"이 부여되는지를 확인하는 것입니다. 
+
+그럼 어떻게 "적합한 사용자"와 "적합한 token"을 확인하면 되는지 알아볼까요?
+
+이전 강의에서 말씀드렸듯이 Keystone은 Role Based access control을 합니다. 
+
+간단히, project, domain, system 범위 별로 해당 actor가 가지고 있는 Role에 따라 사용할 수 있는 api가 정해집니다. 
+
+현재의 Rocky release 버전에서는 role은 admin, member, reader로 구분되어 있고, actor는 user와 group으로 구분되어 있습니다. 
+
+|#|role|description|
+|-|----|-----------|
+|1|reader| 조회 |
+|2|member| 조회, 생성 |
+|3|admin| 조회, 생성, 삭제 |
+
+
+아래는 system scope에 대한 role와 actor 정보를 보여주는 명령어입니다.
+
+```console
+$ openstack role assignment list --names --system all
++--------+------------------------+------------------------+---------+--------+--------+-----------+
+| Role   | User                   | Group                  | Project | Domain | System | Inherited |
++--------+------------------------+------------------------+---------+--------+--------+-----------+
+| admin  |                        | system-admins@Default  |         |        | all    | False     |
+| admin  | admin@Default          |                        |         |        | all    | False     |
+| admin  | operator@Default       |                        |         |        | all    | False     |
+| reader |                        | system-support@Default |         |        | all    | False     |
+| admin  | operator@Default       |                        |         |        | all    | False     |
+| member | system-support@Default |                        |         |        | all    | False     |
++--------+------------------------+------------------------+---------+--------+--------+-----------+
+```
+
+아래는 system administrator에 대한 role과 actor 정보를 보여주는 명령어입니다.
+
+```console
+$ openstack role assignment list --names --system all --role admin
++-------+------------------+-----------------------+---------+--------+--------+-----------+
+| Role  | User             | Group                 | Project | Domain | System | Inherited |
++-------+------------------+-----------------------+---------+--------+--------+-----------+
+| admin |                  | system-admins@Default |         |        | all    | False     |
+| admin | admin@Default    |                       |         |        | all    | False     |
+| admin | operator@Default |                       |         |        | all    | False     |
++-------+------------------+-----------------------+---------+--------+--------+-----------+
+```
+
+아래는 system member와 reader에 대한 role과 actor 정보를 보여주는 명령어입니다.
+
+```console
+$ openstack role assignment list --names --system all --role member --role reader
++--------+------------------------+------------------------+---------+--------+--------+-----------+
+| Role   | User                   | Group                  | Project | Domain | System | Inherited |
++--------+------------------------+------------------------+---------+--------+--------+-----------+
+| reader |                        | system-support@Default |         |        | all    | False     |
+| admin  | operator@Default       |                        |         |        | all    | False     |
+| member | system-support@Default |                        |         |        | all    | False     |
++--------+------------------------+------------------------+---------+--------+--------+-----------+
+```
+
+위와 같이 조직별로 원하는 actor에 따라서, openstack에서는 persona라고 하는데요. 
+
+부여된 role과 scope가 다르게 됩니다.
 
 <br/><br/>
 
 > ### Keystone은 어떻게 작동할까요
-
-<br/>
 
 Keystone이 어떻게 작동되는지 알아 보겠습니다. 
 
@@ -54,8 +140,8 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 <br/>
 
 <div style="text-align:center">
+  
 <img src="./img/logical architecture.png" width="600" height="300"> 
-</div>
 
 <br/>
 
@@ -68,6 +154,71 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 + **Policy Backend** : 사용자 및 권한 등에 대한 Role을 관리
 
 </br>
+
+아래와 같이 데이터가 전달되었다고 했을 때, 
+
+해당 사용자가 프로젝트에 적합한 사용자임을 인증받게 되어, token을 발급받게 됩니다.
+
+```json
+{
+    "auth": {
+        "identity": {
+            "methods": [
+                "password"
+            ],
+            "password": {
+                "user": {
+                    "id": "0ca8f6",
+                    "password": "secretsecret"
+                }
+            }
+        },
+        "scope": {
+            "project": {
+                "id": "263fd9"
+            }
+        }
+    }
+}
+
+```
+
+문제 : 이전 수업을 토대로 아래와 같은 요청 전문은 유효할까요?
+
+참고로 "auth"의 "identity" > "password" > "user" > "id" 부분이 바뀐것을 알 수 있습니다.
+
+```json
+{
+    "auth": {
+        "identity": {
+            "methods": [
+                "password"
+            ],
+            "password": {
+                "user": {
+                    "domain": {
+                        "name": "acme"
+                    }
+                    "name": "userA",
+                    "password": "secretsecret"
+                }
+            }
+        },
+        "scope": {
+            "project": {
+                "domain": {
+                    "id": "1789d1"
+                },
+                "name": "project-x"
+            }
+        }
+    }
+}
+```
+
+정답, 유효합니다. 왜냐하면 Domain에서 user name은 unique하기 때문입니다.  
+
+<br/>
 
 > ### Keystone의 구성요소 ([참고](https://docs.openstack.org/keystone/latest/getting-started/architecture.html))
 
