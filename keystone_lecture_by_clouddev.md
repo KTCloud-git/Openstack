@@ -127,7 +127,7 @@ $ openstack role assignment list --names --system all --role member --role reade
 
 부여된 role과 scope가 다르게 됩니다.
 
-key stone 서비스 자체에 대한 관리는 (링크)[https://docs.openstack.org/keystone/latest/cli/index.html]를 참조하세요.
+key stone 서비스 자체에 대한 관리는 (링크)[https://docs.openstack.org/keystone/latest/cli/index.html] 를 참조하세요.
 
 <br/><br/>
 
@@ -323,10 +323,7 @@ Token으로 사용자를 식별해서 해당 Token으로 접근 가능한 End-po
 </br>
 </br>
 
----
-아래서 부터는 NR이 작업할 예정.
 
----
 ## Keystone의 구성요소 ([참고](https://docs.openstack.org/keystone/latest/getting-started/architecture.html))
 
 <br/>
@@ -417,14 +414,11 @@ User 또는 User Group을 Role 할당 개념으로 사용하여, Project 리소�
 ## Reference : Openstack Official Document
 </br>
 
-> ### Token ([상세보기](https://docs.openstack.org/keystone/latest/admin/tokens-overview.html))
-</br>
+### Token ([상세보기](https://docs.openstack.org/keystone/latest/admin/tokens-overview.html))
 
-위에서 Keystone 동작 절차에 대해 설명할 때 Unscoped Token, 범위가 지정된 Token 개념이 나왔었는데, 해당 부분에서 조금 더 자세히 다뤄볼까 합니다.
-</br>
+위에서 Keystone 동작 절차에 대해 설명할 때 Unscoped Token, 범위가 지정된 Token 개념이 나왔었는데, 해당 부분을 다루어 보겠습니다.
 
-> ### 권한 부여 범위
-</br>
+### 권한 부여 범위
 
 Token은 Role 할당 정보를 전달하는데 사용됩니다.  
 
@@ -435,11 +429,8 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 여기서 Token은 단일 작업 범위(ex. Project, Domain 또는 시스템)를 가지기 때문에, 
 
 만약 Project로 범위가 지정된 Token은 다른 Project에서 다른 작업을 수행하기 위해 재사용할 수 없습니다.
-</br>
 
 따라서, 각각의 권한 부여 범위는 특정 Openstack 서비스에서 특정 유형의 작업에서만 유용하며 상호 호환되지 않습니다.
-</br></br>
-
 
 #### **범위가 지정되지 않는 Token(Unscoped Tokens)**
 
@@ -450,15 +441,11 @@ Unscoped Token은 **서비스 카탈로그, Role 또는 권한 부여 범위(ex.
 (ex. --os-project-name 또는 같은 인수가 있는 명령 줄에서 --os-domain-id)
 
 - Identity에는 Role 할당 및 권한 부여와 관련된 "기본 프로젝트"가 없어야 합니다.
-</br>
-</br>
 
 #### **프로젝트 범위 Token(Project-Scoped Token)**
 
 Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생각하시면 됩니다. 프로젝트 범위 Token은 클라우드의 특정 테넌시(Tenancy)에서 운영할 수 있는 권한을 나타내며, 컴퓨팅 리소스를 가동하거나 블록 스토리지를 분할하는 작업 등에 유용합니다. 추가적으로, **프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.**  
 따라서, **User는 리소스를 사용하기 위해 Project에 대한 Role 할당이 필요합니다.**
-</br>
-</br>
 
 #### **도메인 범위 Token(Domain-Scoped Token)**
 
@@ -466,8 +453,7 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 따라서, **User와 Project를 관리해야하는 사람들은 일반적으로 도메인에 대한 권한이 필요합니다.**
 </br></br>
 
-> ### 토큰 공급자(Token Providers)
-</br>
+### 토큰 공급자(Token Providers)
 
 #### **UUID Token**
 
@@ -485,7 +471,6 @@ Fernet Token 형식은 Openstack Kilo 릴리즈에서 도입되었습니다.
 AES256암호화는 Token에 저장된 정보를 보호하는데 사용되며, 무결성은 서명으로 확인됩니다.
 
 Identity 서비스만 Fernet Token을 암호화하고 해독하는데 사용되는 Key에 접근할 수 있어야하고, UUID Token과 마찬가지로 Fernet Token은 유효성을 검사하기 위해 Identity 서비스로 전달되어야 합니다.
-</br></br>
 
 #### **PKI 및 PKIZ Token**
 
@@ -496,13 +481,3 @@ Openstack 배포 크기에 따라 Token이 매우 길어질 수 있습니다.
 Identity 서비스는 PKI Token을 만들고 유효성을 검사하기 위해 Public Key, Private Key 쌍과 인증서를 사용합니다.
 
 PKIZ Token은 기본적으로 PKI Token과 유사하나, PKIZ Token은 PKI의 크기 문제를 완화하기 위해 압축되어 제공된다는 점이 다릅니다.
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzAyMTU3MiwxMzg1MzMxMDU0LC0xMT
-IyNjMwMTU2LDIxMDcxNzA4MCwxNTgxMTczMzA1LC01ODgzNjYx
-OTksLTUxNzc1OTUzNSwtNTgxNDI2ODMxLC03NjE0NzY5MiwtMT
-c3MDI3NTAyMCw2MDI1NDc3NTMsMTk3NDE4NjYwMSwtMTM3NTI3
-NTIwLC03NDk3MjMzOTUsMTk0MTE4Njk0MSwxNzY0NTY1MDU4LC
-0zNDM4ODY3MDAsLTk2MjA2MDUzMSwxMzM0NDExMzQzLC00OTcz
-MDA2MjVdfQ==
--->
