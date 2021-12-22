@@ -127,7 +127,7 @@ $ openstack role assignment list --names --system all --role member --role reade
 
 부여된 role과 scope가 다르게 됩니다.
 
-key stone 서비스 자체에 대한 관리는 (링크)[https://docs.openstack.org/keystone/latest/cli/index.html] 를 참조하세요.
+key stone 서비스 자체에 대한 관리는 [OpenStack 공식 문서](https://docs.openstack.org/keystone/latest/cli/index.html) 를 참조하세요.
 
 <br/><br/>
 
@@ -432,7 +432,7 @@ User는 Project, Domain 또는 전체 시스템에 걸쳐 여러 Role을 가지�
 
 따라서, 각각의 권한 부여 범위는 특정 Openstack 서비스에서 특정 유형의 작업에서만 유용하며 상호 호환되지 않습니다.
 
-#### **범위가 지정되지 않는 Token(Unscoped Tokens)**
+#### 범위가 지정되지 않는 Token(Unscoped Tokens)
 
 Unscoped Token은 **서비스 카탈로그, Role 또는 권한 부여 범위(ex. Token 내의 Project, Domain 또는 시스템 속성)가 포함되지 않습니다.**  
 주요 사용 사례로는 원본 자격 증명을 반복적으로 제시하지 않고 나중에 Keystone에 Identity를 증명(범위가 지정된 Token 생성)하는 것이 있습니다. Unscoped Token을 받기 위해서는 아래와 같은 조건이 만족되어야 합니다.
@@ -442,12 +442,12 @@ Unscoped Token은 **서비스 카탈로그, Role 또는 권한 부여 범위(ex.
 
 - Identity에는 Role 할당 및 권한 부여와 관련된 "기본 프로젝트"가 없어야 합니다.
 
-#### **프로젝트 범위 Token(Project-Scoped Token)**
+#### 프로젝트 범위 Token(Project-Scoped Token)
 
 Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생각하시면 됩니다. 프로젝트 범위 Token은 클라우드의 특정 테넌시(Tenancy)에서 운영할 수 있는 권한을 나타내며, 컴퓨팅 리소스를 가동하거나 블록 스토리지를 분할하는 작업 등에 유용합니다. 추가적으로, **프로젝트 범위 Token은 서비스 카탈로그, Role 및 Project의 정보가 포함됩니다.**  
 따라서, **User는 리소스를 사용하기 위해 Project에 대한 Role 할당이 필요합니다.**
 
-#### **도메인 범위 Token(Domain-Scoped Token)**
+#### 도메인 범위 Token(Domain-Scoped Token)
 
 도메인 범위 Token은 Domain의 컨텐츠 또는 Domain 자체에서 작동할 수 있는 권한을 나타냅니다. 즉, Domain에 대한 권한이 있는 User는 Domain 내에서 작업을 관리할 수 있습니다. 예를 들어, Domain 관리자는 해당 Domain 내에 새로운 User 및 Project를 생성할 수 있습니다. 추가적으로, **도메인 범위 Token은 서비스 카탈로그, Role 및 Domain에 대한 정보가 포함됩니다.**  
 따라서, **User와 Project를 관리해야하는 사람들은 일반적으로 도메인에 대한 권한이 필요합니다.**
@@ -455,14 +455,14 @@ Project는 Volume이나 Instance와 같은 리소스의 컨테이너라고 생�
 
 ### 토큰 공급자(Token Providers)
 
-#### **UUID Token**
+#### UUID Token
 
 UUID는 현재 기본 Token 제공자이며 32바이트의 길이로 이루어져 있고 백엔드에서 유지되어야 합니다.
 
 Client는 Identity 서비스에 UUID Token을 전달해야 유효성을 확인할 수 있습니다.
 </br></br>
 
-#### **Fernet Token**
+#### Fernet Token
 
 Fernet Token 형식은 Openstack Kilo 릴리즈에서 도입되었습니다.
 
@@ -472,7 +472,7 @@ AES256암호화는 Token에 저장된 정보를 보호하는데 사용되며, �
 
 Identity 서비스만 Fernet Token을 암호화하고 해독하는데 사용되는 Key에 접근할 수 있어야하고, UUID Token과 마찬가지로 Fernet Token은 유효성을 검사하기 위해 Identity 서비스로 전달되어야 합니다.
 
-#### **PKI 및 PKIZ Token**
+#### PKI 및 PKIZ Token
 
 PKI Token은 인증 Context와 서비스 카탈로그를 포함하는 문서(서명이 되어 있음)라고 생각하면 됩니다.  
 
