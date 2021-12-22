@@ -4,7 +4,12 @@
 <h2>목차</h2>
 
 - Keystone은 무엇인가?
+- Operation for cloud operator
+- Keystone은 어떻게 작동할까요?
 - Region / Domain / Project의 개념
+- Keystone의 구성요소
+- Reference : Openstack Official Document
+
 </br>
 
 ---
